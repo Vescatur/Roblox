@@ -1,0 +1,1276 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>41.3510056</X>
+					<Y>47.6413345</Y>
+					<Z>57.5150261</Z>
+					<R00>0.929248869</R00>
+					<R01>-0.105495989</R01>
+					<R02>0.354072392</R02>
+					<R10>-0</R10>
+					<R11>0.958365262</R11>
+					<R12>0.28554523</R12>
+					<R20>-0.369454563</R20>
+					<R21>-0.265342593</R21>
+					<R22>0.890559733</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>16.5</X>
+					<Y>27.5999928</Y>
+					<Z>-4.99000025</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX2">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Script</string>
+				<ProtectedString name="Source">local part = script.Parent.dirt
+local zP = 0
+local xP = 0
+local yP = 0
+local SizeX = 4
+local SizeY = 4
+local SizeZ = 4
+
+
+
+local Parent = Workspace
+
+
+
+
+
+
+zP = part.Position.z+(part.Size.z/2)-2  
+
+print (part.Size.x/Size)
+print (part.Size.y/Size)
+print (part.Size.z/Size)
+
+for i = 1,(part.Size.z/Size)  do 
+
+	xP = part.Position.x+(part.Size.x/2)-2  
+
+	for i = 1,(part.Size.x/Size)  do 
+
+		yP = part.Position.y+(part.Size.y/2)-2 
+ 
+		for i = 1,(part.Size.y/Size)  do 
+			local partC = part:Clone()
+			partC.Size = Vector3.new (Size,Size,Size)
+			partC.CFrame = CFrame.new (xP,yP,zP)
+			partC.Parent = Parent
+			yP = yP - 4
+		end 
+		xP = xP - 4
+	end 
+	zP = zP - 4
+end 
+part.Parent = nil </ProtectedString>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">5</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">5</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>10</X>
+					<Y>8.60000038</Y>
+					<Z>38</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">5</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">5</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">base</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">5</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">5</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>166</X>
+					<Y>1</Y>
+					<Z>222</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX4">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">5</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">5</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>45</X>
+					<Y>13.1000004</Y>
+					<Z>-46</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">5</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">5</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">5</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">5</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>12</X>
+					<Y>8</Y>
+					<Z>12</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX5">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Model</string>
+				<Ref name="PrimaryPart">null</Ref>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Part" referent="RBX6">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">5</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">5</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">26</int>
+					<CoordinateFrame name="CFrame">
+						<X>43</X>
+						<Y>9.60000038</Y>
+						<Z>71</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">5</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">5</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">Base</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">5</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">5</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>200</X>
+						<Y>1</Y>
+						<Z>200</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX7">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">5</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">5</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">194</int>
+					<CoordinateFrame name="CFrame">
+						<X>16</X>
+						<Y>12.1000004</Y>
+						<Z>-5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">5</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">5</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">Brick</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">5</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">5</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>4</X>
+						<Y>4</Y>
+						<Z>12</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX8">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">5</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">5</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">194</int>
+					<CoordinateFrame name="CFrame">
+						<X>16</X>
+						<Y>16.1000004</Y>
+						<Z>-5</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">5</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">5</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">Brick</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">5</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">5</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>4</X>
+						<Y>4</Y>
+						<Z>12</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="RunService" referent="RBX9">
+		<Properties>
+			<string name="Name">Run Service</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ContentProvider" referent="RBX10">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ContentFilter" referent="RBX11">
+		<Properties>
+			<string name="Name">ContentFilter</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="KeyframeSequenceProvider" referent="RBX12">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX13">
+		<Properties>
+			<int name="MaxPlayers">12</int>
+			<string name="Name">Players</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="StarterPack" referent="RBX14">
+		<Properties>
+			<string name="Name">StarterPack</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="HopperBin" referent="RBX15">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">0</token>
+				<string name="Name">delete</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script" referent="RBX16">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ActionTool</string>
+					<ProtectedString name="Source">local part = script.Parent
+local zP = 0
+local xP = 0
+local yP = 0
+local SizeX = 4
+local SizeY = 4
+local SizeZ = 4
+local Parent = Workspace
+local bin = script.Parent
+local goed = false
+
+
+function onButton1Down(mouse)
+
+  
+	local hit = mouse.Target
+
+
+
+
+	if (hit == nil) or (halt == true) then return end
+	halt = true
+	mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+	goed = false
+
+
+	if hit.Name == &quot;Brick&quot; then
+		for i,v in pairs(hit.Parent:children()) do	
+			if v.className ==  &quot;StringValue&quot; then
+				if v.Value == script.Parent.Parent.Parent.Name then
+				goed = true
+				end
+			end
+		end 
+
+		if goed == true then
+			part = hit
+			part.Parent = nil
+		end
+	end
+
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+end
+
+
+
+function onSelected(mouse)
+	--print(&quot;Action Tool Selected&quot;)
+	mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+	if halt == true then 	
+		mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+	end
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+bin.Selected:connect(onSelected)
+
+
+
+
+
+
+
+
+
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="HopperBin" referent="RBX17">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">0</token>
+				<string name="Name">owner</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script" referent="RBX18">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ActionTool</string>
+					<ProtectedString name="Source">local bin = script.Parent
+local goed = false
+
+
+function onButton1Down(mouse)
+	local hit = mouse.Target
+
+
+
+	if (hit == nil) or (halt == true) then return end
+	halt = true
+	mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+	
+
+	goed = true
+	if hit.Name == &quot;Base&quot; then
+		for i,v in pairs(hit.Parent:children()) do	
+			if v.className ==  &quot;StringValue&quot; then
+				goed = false
+			end
+		end
+
+		if goed == true then
+			i = Instance.new (&quot;StringValue&quot;)
+			i.Name = &quot;Onwer&quot;
+			i.Value = script.Parent.Parent.Parent.Name
+			i.Parent = hit.Parent
+		end
+	end
+
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+end
+
+
+
+function onSelected(mouse)
+	--print(&quot;Action Tool Selected&quot;)
+	mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+	if halt == true then 	
+		mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+	end
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+bin.Selected:connect(onSelected)
+
+
+
+-- Instance.new(&quot;&quot;)
+
+
+
+
+
+
+
+
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="HopperBin" referent="RBX19">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">0</token>
+				<string name="Name">cutter</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script" referent="RBX20">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ActionTool</string>
+					<ProtectedString name="Source"> local part = script.Parent
+local zP = 0
+local xP = 0
+local yP = 0
+local SizeX = 4
+local SizeY = 4
+local SizeZ = 4
+local Parent = Workspace
+local bin = script.Parent
+local goed = false
+
+
+function onButton1Down(mouse)
+
+  
+	local hit = mouse.Target
+
+
+
+
+	if (hit == nil) or (halt == true) then return end
+	halt = true
+	mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+	goed = false
+
+	
+		if hit.Name == &quot;Brick&quot; then
+			for i,v in pairs(hit.Parent:children()) do	
+				if v.className ==  &quot;StringValue&quot; then
+					if v.Value == script.Parent.Parent.Parent.Name then
+					goed = true
+					end
+				end
+			end
+			
+
+
+			if goed == true then
+
+			part = hit
+
+			zP = part.Position.z+(part.Size.z/2)-(SizeZ/2)  
+
+			for i = 1,(part.Size.z/SizeZ)  do 
+
+				xP = part.Position.x+(part.Size.x/2)-(SizeX/2)    
+
+				for i = 1,(part.Size.x/SizeX)  do 
+
+					yP = part.Position.y+(part.Size.y/2)-(SizeY/2) 
+ 
+					for i = 1,(part.Size.y/SizeY)  do 
+						local partC = part:Clone()
+						partC.Size = Vector3.new (SizeX,SizeY,SizeZ)
+						partC.CFrame = CFrame.new (xP,yP,zP)
+						partC.Parent = part.Parent
+						yP = yP - SizeY
+					end 
+					xP = xP - SizeX
+				end 
+				zP = zP - SizeZ
+			end 
+		part.Parent = nil
+		end
+	end
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+end
+
+
+
+function onSelected(mouse)
+	--print(&quot;Action Tool Selected&quot;)
+	mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+	if halt == true then 	
+		mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+	end
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+bin.Selected:connect(onSelected)
+
+
+
+
+
+
+
+
+
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Tool" referent="RBX21">
+			<Properties>
+				<bool name="Enabled">true</bool>
+				<CoordinateFrame name="Grip">
+					<X>0.400000006</X>
+					<Y>-0.300000012</Y>
+					<Z>0.100000001</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>0</R11>
+					<R12>-1</R12>
+					<R20>-0</R20>
+					<R21>1</R21>
+					<R22>-0</R22>
+				</CoordinateFrame>
+				<string name="Name">BuildResize</string>
+				<Content name="TextureId"><url>rbxasset://icons/resize.png</url></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="LocalScript" referent="RBX22">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Resize Local</string>
+					<ProtectedString name="Source">local Tool = script.Parent
+
+enabled = true
+local origTexture = 	Tool.TextureId
+game:GetService(&quot;ContentProvider&quot;):Preload(&quot;rbxasset://icons/resize_sel.png&quot;)
+
+local selectionBox
+local selectionLasso
+local handles
+
+local previousDistance
+
+function onHandlesDown(normal)
+	print(&quot;handlesDown&quot;)
+	previousDistance = 0
+end
+function onHandlesDrag(normal, distance)
+	
+	if handles.Adornee then
+		local delta = distance - previousDistance 
+		if math.abs(delta) &gt;= handles.Adornee.ResizeIncrement then
+			local sizeDelta = math.floor(delta / handles.Adornee.ResizeIncrement + 0.5) * handles.Adornee.ResizeIncrement
+			if handles.Adornee:Resize(normal, sizeDelta) then
+				previousDistance = distance
+			end
+		end
+	end
+end
+
+function onButton1Down(mouse)
+	print(&quot;3DButtonDown&quot;)
+	if mouse.Target == nil or mouse.Target.Locked then
+		selectionBox.Adornee = nil
+		selectionLasso.Part = nil
+		handles.Adornee = nil
+	else
+		selectionBox.Adornee = mouse.Target
+		selectionLasso.Part = mouse.Target
+		handles.Adornee = mouse.Target
+		handles.Faces = mouse.Target.ResizeableFaces
+	end
+end
+
+
+
+function onEquippedLocal(mouse)
+	Tool.TextureId = &quot;rbxasset://icons/resize_sel.png&quot;
+
+	mouse.Icon =&quot;rbxasset://textures\\DragCursor.png&quot;
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+
+	local character = script.Parent.Parent
+	local player = game.Players:GetPlayerFromCharacter(character)
+	
+	selectionBox = Instance.new(&quot;SelectionBox&quot;)
+	selectionBox.Color = BrickColor.Blue()
+	selectionBox.Adornee = nil
+	selectionBox.Parent = player.PlayerGui
+
+	selectionLasso = Instance.new(&quot;SelectionPartLasso&quot;)
+	selectionLasso.Name = &quot;Model Delete Lasso&quot;
+	selectionLasso.Humanoid = character.Humanoid
+	selectionLasso.Parent = game.workspace
+	selectionLasso.Part = nil
+	selectionLasso.Visible = true
+	selectionLasso.archivable = false
+	selectionLasso.Color = BrickColor.Red()
+
+	handles = Instance.new(&quot;Handles&quot;)
+	handles.Color = BrickColor.Blue()
+	handles.Adornee = nil
+	handles.MouseDrag:connect(onHandlesDrag)
+	handles.MouseButton1Down:connect(onHandlesDown)
+	handles.Parent = player.PlayerGui
+end
+
+function onUnequippedLocal()
+	Tool.TextureId = origTexture
+	selectionBox:Remove()
+	selectionLasso:Remove()
+	handles:Remove()
+end
+
+
+Tool.Equipped:connect(onEquippedLocal)
+Tool.Unequipped:connect(onUnequippedLocal)
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX23">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">PUT THIS IN THE WEAPON</string>
+					<ProtectedString name="Source">local debounce = false
+
+function getPlayer(humanoid) 
+local players = game.Players:children() 
+for i = 1, #players do 
+if players[i].Character.Humanoid == humanoid then return players[i] end 
+end 
+return nil 
+end 
+
+function onTouch(part) 
+
+local human = part.Parent:findFirstChild(&quot;Humanoid&quot;) 
+if (human ~= nil) and debounce == false then
+
+debounce = true
+
+local player = getPlayer(human) 
+
+if (player == nil) then return end 
+
+script.Parent:clone().Parent = player.Backpack
+
+wait(2)
+debounce = false
+end
+end
+
+
+script.Parent.Parent.Touched:connect(onTouch) 
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX24">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">SwordScript</string>
+					<ProtectedString name="Source">-------- OMG HAX
+
+r = game:service(&quot;RunService&quot;)
+
+
+local damage = 0
+
+
+local slash_damage = 0
+
+
+sword = script.Parent.Handle
+Tool = script.Parent
+
+
+
+function attack()
+	local anim = Instance.new(&quot;StringValue&quot;)
+	anim.Name = &quot;toolanim&quot;
+	anim.Value = &quot;Slash&quot;
+	anim.Parent = Tool
+end
+
+
+function swordUp()
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0,1,0)
+	Tool.GripUp = Vector3.new(0,0,1)
+end
+
+function swordOut()
+	Tool.GripForward = Vector3.new(0,0,1)
+	Tool.GripRight = Vector3.new(0,-1,0)
+	Tool.GripUp = Vector3.new(-1,0,0)
+end
+
+
+
+Tool.Enabled = true
+
+function onActivated()
+
+	if not Tool.Enabled then
+		return
+	end
+
+	Tool.Enabled = false
+
+	local character = Tool.Parent;
+	local humanoid = character.Humanoid
+	if humanoid == nil then
+		print(&quot;Humanoid not found&quot;)
+		return 
+	end
+
+	
+
+	attack()
+
+	wait(1)
+
+	Tool.Enabled = true
+end
+
+
+function onEquipped()
+end
+
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX25">
+				<Properties>
+					<bool name="Anchored">false</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">199</int>
+					<CoordinateFrame name="CFrame">
+						<X>16.9997292</X>
+						<Y>18.789938</Y>
+						<Z>-6.00495529</Z>
+						<R00>-0.999999464</R00>
+						<R01>1.50582382e-005</R01>
+						<R02>-9.40304599e-005</R02>
+						<R10>1.50599881e-005</R10>
+						<R11>1</R11>
+						<R12>-1.83732282e-005</R12>
+						<R20>9.40301834e-005</R20>
+						<R21>-1.83746906e-005</R21>
+						<R22>-0.999999464</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">2</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">Handle</string>
+					<float name="Reflectance">0.400000006</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">1</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>2</X>
+						<Y>1.20000005</Y>
+						<Z>1</Z>
+					</Vector3>
+				</Properties>
+				<Item class="SpecialMesh" referent="RBX26">
+					<Properties>
+						<token name="LODX">2</token>
+						<token name="LODY">2</token>
+						<Content name="MeshId"><url>http://www.roblox.com/asset/?id=15954259</url></Content>
+						<token name="MeshType">5</token>
+						<string name="Name">Mesh</string>
+						<Vector3 name="Offset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<Vector3 name="Scale">
+							<X>0.400000006</X>
+							<Y>0.400000006</Y>
+							<Z>0.400000006</Z>
+						</Vector3>
+						<Content name="TextureId"><url>http://www.roblox.com/asset/?id=15958837</url></Content>
+						<Vector3 name="VertexColor">
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Fire" referent="RBX27">
+					<Properties>
+						<Color3 name="Color">4294945536</Color3>
+						<bool name="Enabled">false</bool>
+						<string name="Name">Fire</string>
+						<Color3 name="SecondaryColor">4294901760</Color3>
+						<bool name="archivable">true</bool>
+						<float name="heat_xml">25</float>
+						<float name="size_xml">30</float>
+					</Properties>
+					<Item class="Script" referent="RBX28">
+						<Properties>
+							<bool name="Disabled">false</bool>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">Script</string>
+							<ProtectedString name="Source">function Spread(part)
+	check = part:findFirstChild(&quot;Fire&quot;)
+		if check == nil then 
+	script.Parent:Clone().Parent = part
+	
+		elseif check ~= nil then
+	check.Size = check.Size + 1
+	check.Heat = check.Heat  +1
+	end
+end
+
+
+script.Parent.Parent.Touched:connect(Spread)
+
+</ProtectedString>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="StarterGui" referent="RBX29">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX30">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX31">
+		<Properties>
+			<string name="Name">CollectionService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX32">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX33">
+		<Properties>
+			<string name="Name">BadgeService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX34">
+		<Properties>
+			<string name="Name">Geometry</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="RenderHooksService" referent="RBX35">
+		<Properties>
+			<string name="Name">RenderHooksService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX36">
+		<Properties>
+			<string name="Name">SocialService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX37">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Timer" referent="RBX38">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX39">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX40">
+		<Properties>
+			<string name="Name">Selection</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="MeshContentProvider" referent="RBX41">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="TextureContentProvider" referent="RBX42">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX43">
+		<Properties>
+			<Color3 name="Ambient">4286611584</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<float name="GeographicLatitude">41.7332993</float>
+			<string name="Name">Lighting</string>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="SelectionBox" referent="RBX44">
+			<Properties>
+				<Ref name="Adornee">null</Ref>
+				<int name="Color">23</int>
+				<string name="Name">SelectionBox</string>
+				<float name="Transparency">0</float>
+				<bool name="Visible">true</bool>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX45">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+</roblox>

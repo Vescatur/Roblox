@@ -1,0 +1,2748 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>99.2803802</X>
+					<Y>36.1088028</Y>
+					<Z>-54.1869469</Z>
+					<R00>0.0142624602</R00>
+					<R01>-0.706993163</R01>
+					<R02>0.707076669</R02>
+					<R10>-9.31322575e-010</R10>
+					<R11>0.707148612</R11>
+					<R12>0.707065046</R12>
+					<R20>-0.999898314</R20>
+					<R21>-0.0100844884</R21>
+					<R22>0.0100856787</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>85.1388474</X>
+					<Y>21.9675026</Y>
+					<Z>-54.3886604</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX2">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">28</int>
+				<CoordinateFrame name="CFrame">
+					<X>85.5</X>
+					<Y>0.600000024</Y>
+					<Z>-20</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>205</X>
+					<Y>1</Y>
+					<Z>124</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="SpawnLocation" referent="RBX3">
+			<Properties>
+				<bool name="AllowTeamChangeOnTouch">false</bool>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">2</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">2</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">23</int>
+				<CoordinateFrame name="CFrame">
+					<X>93</X>
+					<Y>1.70000005</Y>
+					<Z>-20</Z>
+					<R00>-1</R00>
+					<R01>0</R01>
+					<R02>-0</R02>
+					<R10>-0</R10>
+					<R11>1</R11>
+					<R12>-0</R12>
+					<R20>-0</R20>
+					<R21>0</R21>
+					<R22>-1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<int name="Duration">10</int>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">1</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">2</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">2</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">SpawnLocation</string>
+				<bool name="Neutral">false</bool>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">2</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int name="TeamColor">23</int>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>6</X>
+					<Y>1.20000005</Y>
+					<Z>6</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Decal" referent="RBX4">
+				<Properties>
+					<token name="Face">1</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxasset://Textures/SpawnLocation.png</url></Content>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX5">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>116</X>
+					<Y>6.5999999</Y>
+					<Z>-47.5</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>16</X>
+					<Y>11</Y>
+					<Z>1</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Humanoid" referent="RBX6">
+				<Properties>
+					<float name="Health">100</float>
+					<float name="MaxHealth">100</float>
+					<string name="Name">Humanoid</string>
+					<float name="WalkSpeed">16</float>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="NumberValue" referent="RBX7">
+				<Properties>
+					<string name="Name">dmg</string>
+					<double name="Value">0</double>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX8">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Script</string>
+					<ProtectedString name="Source">print &apos;Hello world!&apos;
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX9">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>134</X>
+					<Y>6.5999999</Y>
+					<Z>-70.5</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>60</X>
+					<Y>11</Y>
+					<Z>1</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Humanoid" referent="RBX10">
+				<Properties>
+					<float name="Health">100</float>
+					<float name="MaxHealth">100</float>
+					<string name="Name">Humanoid</string>
+					<float name="WalkSpeed">16</float>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="NumberValue" referent="RBX11">
+				<Properties>
+					<string name="Name">dmg</string>
+					<double name="Value">0</double>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX12">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Script</string>
+					<ProtectedString name="Source">print &apos;Hello world!&apos;
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="RunService" referent="RBX13">
+		<Properties>
+			<string name="Name">Run Service</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ContentProvider" referent="RBX14">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ContentFilter" referent="RBX15">
+		<Properties>
+			<string name="Name">ContentFilter</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="KeyframeSequenceProvider" referent="RBX16">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX17">
+		<Properties>
+			<int name="MaxPlayers">12</int>
+			<string name="Name">Players</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="StarterPack" referent="RBX18">
+		<Properties>
+			<string name="Name">StarterPack</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="HopperBin" referent="RBX19">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">0</token>
+				<string name="Name">Rope10</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script" referent="RBX20">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">RopeLauncher</string>
+					<ProtectedString name="Source">Ropes = 0 -- The current amount of ropes out.
+MaxRopes = 40 -- The maximum ropes out for this player at a time.
+MaxDistance = 100 -- The maximum distance for a rope to be created.
+
+
+
+function onButton1Down(mouse)
+	if Ropes &gt;= MaxRopes then 
+		printMessage(&quot;You can only have &quot;..MaxRopes..&quot; ropes out at a time. Press &apos;r&apos; to remove them.&quot;, 6)
+		return
+	end
+
+	local part = Instance.new(&quot;Part&quot;)
+	part.Name = &quot;Rope &quot;..game.Players.LocalPlayer.Name..&quot;&quot;
+	part.Anchored = true
+	part.TopSurface = 0
+	part.BottomSurface = 0
+	part.formFactor = &quot;Custom&quot;
+	part.BrickColor = BrickColor.new(&quot;New Yeller&quot;)
+	part.CanCollide = false
+	
+	local rscript = Game.Lighting.removepart:Clone()
+	rscript.Parent = part
+	rscript.Disabled = false
+
+	
+	local player = game.Players.LocalPlayer.Character
+	local torso = player:findFirstChild(&quot;Torso&quot;)
+	if torso ~= nil then
+		local dist = (mouse.Hit.p - torso.Position)
+		if dist.magnitude &gt; MaxDistance then return end
+		part.Size = Vector3.new(0.4,0.4,dist.magnitude)
+		part.CFrame = CFrame.new((mouse.Hit.p + torso.Position)/2, mouse.Hit.p)
+		part.Velocity = part.CFrame.lookVector * 30
+		part.Parent = workspace
+		Ropes = Ropes + 1
+	end
+end 
+
+function onKeyDown(key)
+	if key == &quot;r&quot; then
+		Ropes = 0
+		local get = workspace:getChildren()
+		for _,child in pairs(get) do
+			if child.Name == &quot;Rope &quot;..game.Players.LocalPlayer.Name..&quot;&quot; then
+				child:remove()
+			end
+		end
+	end
+end
+
+msg = Instance.new(&quot;Hint&quot;)
+function printMessage(text, time)
+	msg.Parent = game.Players.LocalPlayer
+	msg.Text = text
+	wait(time)
+	msg.Parent = nil
+end
+
+function onSelected(mouse)
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+	mouse.KeyDown:connect(onKeyDown)
+end
+
+script.Parent.Selected:connect(onSelected)
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Tool" referent="RBX21">
+			<Properties>
+				<bool name="Enabled">true</bool>
+				<CoordinateFrame name="Grip">
+					<X>0</X>
+					<Y>0.400000006</Y>
+					<Z>0.5</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>-0</R02>
+					<R10>0</R10>
+					<R11>0</R11>
+					<R12>1</R12>
+					<R20>0</R20>
+					<R21>-1</R21>
+					<R22>-0</R22>
+				</CoordinateFrame>
+				<string name="Name">LaserGun</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Part" referent="RBX22">
+				<Properties>
+					<bool name="Anchored">false</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">194</int>
+					<CoordinateFrame name="CFrame">
+						<X>-100.120918</X>
+						<Y>36.9488831</Y>
+						<Z>39.6417847</Z>
+						<R00>0.36193946</R00>
+						<R01>-0.932201624</R01>
+						<R02>4.07478282e-008</R02>
+						<R10>-2.04414283e-021</R10>
+						<R11>-4.37113883e-008</R11>
+						<R12>-1</R12>
+						<R20>0.932201624</R20>
+						<R21>0.36193946</R21>
+						<R22>-1.58208771e-008</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">Handle</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>3.65516766e-020</X>
+						<Y>0.00652601384</Y>
+						<Z>3.62601569e-020</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>1</X>
+						<Y>3</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+				<Item class="SpecialMesh" referent="RBX23">
+					<Properties>
+						<token name="LODX">2</token>
+						<token name="LODY">2</token>
+						<Content name="MeshId"><url>rbxasset://fonts/PaintballGun.mesh</url></Content>
+						<token name="MeshType">5</token>
+						<string name="Name">Mesh</string>
+						<Vector3 name="Offset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<Vector3 name="Scale">
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Vector3>
+						<Content name="TextureId"><url>rbxasset://textures/PaintballGunTex128.png</url></Content>
+						<Vector3 name="VertexColor">
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Sound" referent="RBX24">
+					<Properties>
+						<bool name="Looped">false</bool>
+						<string name="Name">Fire</string>
+						<float name="Pitch">1</float>
+						<bool name="PlayOnRemove">false</bool>
+						<Content name="SoundId"><url>http://www.roblox.com/asset/?id=1369158</url></Content>
+						<float name="Volume">0.5</float>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX25">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999999881</R00>
+							<R01>-2.08570758e-018</R01>
+							<R02>6.77443706e-019</R02>
+							<R10>-6.77440604e-019</R10>
+							<R11>-1.43051147e-006</R11>
+							<R12>-0.99999994</R12>
+							<R20>2.08570862e-018</R20>
+							<R21>-0.99999994</R21>
+							<R22>1.54972076e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999999881</R00>
+							<R01>-2.08570758e-018</R01>
+							<R02>6.77443706e-019</R02>
+							<R10>-6.77440604e-019</R10>
+							<R11>-1.43051147e-006</R11>
+							<R12>-0.99999994</R12>
+							<R20>2.08570862e-018</R20>
+							<R21>-0.99999994</R21>
+							<R22>1.54972076e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX26">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999173284</R00>
+							<R01>1.84626127e-021</R01>
+							<R02>-0.0406520553</R02>
+							<R10>0.0406520441</R10>
+							<R11>0.000796274282</R11>
+							<R12>-0.999173045</R12>
+							<R20>3.23701897e-005</R20>
+							<R21>-0.999999642</R21>
+							<R22>-0.00079561607</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999173284</R00>
+							<R01>1.84626127e-021</R01>
+							<R02>-0.0406520553</R02>
+							<R10>0.0406520441</R10>
+							<R11>0.000796274282</R11>
+							<R12>-0.999173045</R12>
+							<R20>3.23701897e-005</R20>
+							<R21>-0.999999642</R21>
+							<R22>-0.00079561607</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX27">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999159694</R00>
+							<R01>3.35984771e-021</R01>
+							<R02>0.0409906954</R02>
+							<R10>-0.0409906954</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>-0.999159694</R12>
+							<R20>1.79175963e-009</R20>
+							<R21>-1</R21>
+							<R22>4.36746603e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999159694</R00>
+							<R01>3.35984771e-021</R01>
+							<R02>0.0409906954</R02>
+							<R10>-0.0409906954</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>-0.999159694</R12>
+							<R20>1.79175963e-009</R20>
+							<R21>-1</R21>
+							<R22>4.36746603e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX28">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999159694</R00>
+							<R01>3.35984771e-021</R01>
+							<R02>0.0409906954</R02>
+							<R10>-0.0409906954</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>-0.999159694</R12>
+							<R20>1.79175963e-009</R20>
+							<R21>-1</R21>
+							<R22>4.36746603e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999159694</R00>
+							<R01>3.35984771e-021</R01>
+							<R02>0.0409906954</R02>
+							<R10>-0.0409906954</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>-0.999159694</R12>
+							<R20>1.79175963e-009</R20>
+							<R21>-1</R21>
+							<R22>4.36746603e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX29">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999159694</R00>
+							<R01>3.35984771e-021</R01>
+							<R02>0.0409906954</R02>
+							<R10>-0.0409906954</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>-0.999159694</R12>
+							<R20>1.79175963e-009</R20>
+							<R21>-1</R21>
+							<R22>4.36746603e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.999159694</R00>
+							<R01>3.35984771e-021</R01>
+							<R02>0.0409906954</R02>
+							<R10>-0.0409906954</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>-0.999159694</R12>
+							<R20>1.79175963e-009</R20>
+							<R21>-1</R21>
+							<R22>4.36746603e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX30">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.128046393</R00>
+							<R01>3.26396443e-021</R01>
+							<R02>0.991768122</R02>
+							<R10>0.14080286</R10>
+							<R11>0.989870727</R11>
+							<R12>-0.0181789454</R12>
+							<R20>-0.981722236</R20>
+							<R21>0.141971558</R21>
+							<R22>0.126749381</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.128046393</R00>
+							<R01>3.26396443e-021</R01>
+							<R02>0.991768122</R02>
+							<R10>0.14080286</R10>
+							<R11>0.989870727</R11>
+							<R12>-0.0181789454</R12>
+							<R20>-0.981722236</R20>
+							<R21>0.141971558</R21>
+							<R22>0.126749381</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX31">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.237641081</R00>
+							<R01>-0.015608618</R01>
+							<R02>0.971227586</R02>
+							<R10>-0.971147358</R10>
+							<R11>-0.0243863538</R11>
+							<R12>0.237229496</R12>
+							<R20>0.019981876</R20>
+							<R21>-0.999580741</R21>
+							<R22>-0.0209534671</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.237641081</R00>
+							<R01>-0.015608618</R01>
+							<R02>0.971227586</R02>
+							<R10>-0.971147358</R10>
+							<R11>-0.0243863538</R11>
+							<R12>0.237229496</R12>
+							<R20>0.019981876</R20>
+							<R21>-0.999580741</R21>
+							<R22>-0.0209534671</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX32">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.237641081</R00>
+							<R01>-0.015608618</R01>
+							<R02>0.971227586</R02>
+							<R10>-0.971147358</R10>
+							<R11>-0.0243863538</R11>
+							<R12>0.237229496</R12>
+							<R20>0.019981876</R20>
+							<R21>-0.999580741</R21>
+							<R22>-0.0209534671</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.237641081</R00>
+							<R01>-0.015608618</R01>
+							<R02>0.971227586</R02>
+							<R10>-0.971147358</R10>
+							<R11>-0.0243863538</R11>
+							<R12>0.237229496</R12>
+							<R20>0.019981876</R20>
+							<R21>-0.999580741</R21>
+							<R22>-0.0209534671</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX33">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.237641081</R00>
+							<R01>-0.015608618</R01>
+							<R02>0.971227586</R02>
+							<R10>-0.971147358</R10>
+							<R11>-0.0243863538</R11>
+							<R12>0.237229496</R12>
+							<R20>0.019981876</R20>
+							<R21>-0.999580741</R21>
+							<R22>-0.0209534671</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.237641081</R00>
+							<R01>-0.015608618</R01>
+							<R02>0.971227586</R02>
+							<R10>-0.971147358</R10>
+							<R11>-0.0243863538</R11>
+							<R12>0.237229496</R12>
+							<R20>0.019981876</R20>
+							<R21>-0.999580741</R21>
+							<R22>-0.0209534671</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX34">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731353</R00>
+							<R01>2.87241528e-006</R01>
+							<R02>0.9985044</R02>
+							<R10>0.18169491</R10>
+							<R11>0.98330456</R11>
+							<R12>-0.00995153841</R12>
+							<R20>-0.981833994</R20>
+							<R21>0.181967229</R21>
+							<R22>0.0537598245</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731353</R00>
+							<R01>2.87241528e-006</R01>
+							<R02>0.9985044</R02>
+							<R10>0.18169491</R10>
+							<R11>0.98330456</R11>
+							<R12>-0.00995153841</R12>
+							<R20>-0.981833994</R20>
+							<R21>0.181967229</R21>
+							<R22>0.0537598245</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX35">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX36">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX37">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX38">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731278</R00>
+							<R01>2.87241483e-006</R01>
+							<R02>0.998504281</R02>
+							<R10>-0.998504043</R10>
+							<R11>0.000797106128</R11>
+							<R12>0.0546731129</R12>
+							<R20>-0.000795756874</R20>
+							<R21>-0.999999642</R21>
+							<R22>4.64484074e-005</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731278</R00>
+							<R01>2.87241483e-006</R01>
+							<R02>0.998504281</R02>
+							<R10>-0.998504043</R10>
+							<R11>0.000797106128</R11>
+							<R12>0.0546731129</R12>
+							<R20>-0.000795756874</R20>
+							<R21>-0.999999642</R21>
+							<R22>4.64484074e-005</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX39">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX40">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX41">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX42">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731353</R00>
+							<R01>2.87241528e-006</R01>
+							<R02>0.9985044</R02>
+							<R10>-0.097212106</R10>
+							<R11>0.99524945</R11>
+							<R12>0.00531998836</R12>
+							<R20>-0.993760943</R20>
+							<R21>-0.0973575562</R21>
+							<R22>0.0544136874</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731353</R00>
+							<R01>2.87241528e-006</R01>
+							<R02>0.9985044</R02>
+							<R10>-0.097212106</R10>
+							<R11>0.99524945</R11>
+							<R12>0.00531998836</R12>
+							<R20>-0.993760943</R20>
+							<R21>-0.0973575562</R21>
+							<R22>0.0544136874</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX43">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX44">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX45">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX46">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731278</R00>
+							<R01>2.87241483e-006</R01>
+							<R02>0.998504281</R02>
+							<R10>-0.998504043</R10>
+							<R11>0.000797106128</R11>
+							<R12>0.0546731129</R12>
+							<R20>-0.000795756874</R20>
+							<R21>-0.999999642</R21>
+							<R22>4.64484074e-005</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.0546731278</R00>
+							<R01>2.87241483e-006</R01>
+							<R02>0.998504281</R02>
+							<R10>-0.998504043</R10>
+							<R11>0.000797106128</R11>
+							<R12>0.0546731129</R12>
+							<R20>-0.000795756874</R20>
+							<R21>-0.999999642</R21>
+							<R22>4.64484074e-005</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX47">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX48">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX49">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.311242133</R00>
+							<R01>2.55924897e-006</R01>
+							<R02>0.950330734</R02>
+							<R10>-0.950330734</R10>
+							<R11>1.50320147e-006</R11>
+							<R12>0.311242133</R12>
+							<R20>-6.31992123e-007</R20>
+							<R21>-1</R21>
+							<R22>2.89999252e-006</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX50">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.0790768117</R00>
+							<R01>-9.74038739e-010</R01>
+							<R02>0.996868372</R02>
+							<R10>-0.0294367392</R10>
+							<R11>0.999563932</R11>
+							<R12>-0.00233507506</R12>
+							<R20>-0.996433675</R20>
+							<R21>-0.0295292139</R21>
+							<R22>-0.0790423304</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>-0.0790768117</R00>
+							<R01>-9.74038739e-010</R01>
+							<R02>0.996868372</R02>
+							<R10>-0.0294367392</R10>
+							<R11>0.999563932</R11>
+							<R12>-0.00233507506</R12>
+							<R20>-0.996433675</R20>
+							<R21>-0.0295292139</R21>
+							<R22>-0.0790423304</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX51">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.181626171</R00>
+							<R01>-6.50062226e-010</R01>
+							<R02>0.983367443</R02>
+							<R10>-0.983367443</R10>
+							<R11>-4.50487221e-008</R11>
+							<R12>0.181626171</R12>
+							<R20>4.41813768e-008</R20>
+							<R21>-1</R21>
+							<R22>-8.82127615e-009</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.181626171</R00>
+							<R01>-6.50062226e-010</R01>
+							<R02>0.983367443</R02>
+							<R10>-0.983367443</R10>
+							<R11>-4.50487221e-008</R11>
+							<R12>0.181626171</R12>
+							<R20>4.41813768e-008</R20>
+							<R21>-1</R21>
+							<R22>-8.82127615e-009</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX52">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.181626171</R00>
+							<R01>-6.50062226e-010</R01>
+							<R02>0.983367443</R02>
+							<R10>-0.983367443</R10>
+							<R11>-4.50487221e-008</R11>
+							<R12>0.181626171</R12>
+							<R20>4.41813768e-008</R20>
+							<R21>-1</R21>
+							<R22>-8.82127615e-009</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.181626171</R00>
+							<R01>-6.50062226e-010</R01>
+							<R02>0.983367443</R02>
+							<R10>-0.983367443</R10>
+							<R11>-4.50487221e-008</R11>
+							<R12>0.181626171</R12>
+							<R20>4.41813768e-008</R20>
+							<R21>-1</R21>
+							<R22>-8.82127615e-009</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX53">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.181626171</R00>
+							<R01>-6.50062226e-010</R01>
+							<R02>0.983367443</R02>
+							<R10>-0.983367443</R10>
+							<R11>-4.50487221e-008</R11>
+							<R12>0.181626171</R12>
+							<R20>4.41813768e-008</R20>
+							<R21>-1</R21>
+							<R22>-8.82127615e-009</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.181626171</R00>
+							<R01>-6.50062226e-010</R01>
+							<R02>0.983367443</R02>
+							<R10>-0.983367443</R10>
+							<R11>-4.50487221e-008</R11>
+							<R12>0.181626171</R12>
+							<R20>4.41813768e-008</R20>
+							<R21>-1</R21>
+							<R22>-8.82127615e-009</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX54">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.108334661</R00>
+							<R01>-3.19359208e-021</R01>
+							<R02>0.994114399</R02>
+							<R10>0.0770770013</R10>
+							<R11>0.996989787</R11>
+							<R12>-0.00839954708</R12>
+							<R20>-0.991121888</R20>
+							<R21>0.0775333345</R21>
+							<R22>0.108008549</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.108334661</R00>
+							<R01>-3.19359208e-021</R01>
+							<R02>0.994114399</R02>
+							<R10>0.0770770013</R10>
+							<R11>0.996989787</R11>
+							<R12>-0.00839954708</R12>
+							<R20>-0.991121888</R20>
+							<R21>0.0775333345</R21>
+							<R22>0.108008549</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX55">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.361939251</R00>
+							<R01>-2.05788218e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.361939251</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208682e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.361939251</R00>
+							<R01>-2.05788218e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.361939251</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208682e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX56">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.361939251</R00>
+							<R01>-2.05788218e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.361939251</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208682e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.361939251</R00>
+							<R01>-2.05788218e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.361939251</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208682e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX57">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.361939251</R00>
+							<R01>-2.05788218e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.361939251</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208682e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.361939251</R00>
+							<R01>-2.05788218e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.361939251</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208682e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX58">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.108335137</R00>
+							<R01>-3.17551608e-021</R01>
+							<R02>0.994114459</R02>
+							<R10>0.0146231875</R10>
+							<R11>0.999891818</R11>
+							<R12>-0.00159358408</R12>
+							<R20>-0.994006932</R20>
+							<R21>0.0147097623</R21>
+							<R22>0.108323418</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.108335137</R00>
+							<R01>-3.17551608e-021</R01>
+							<R02>0.994114459</R02>
+							<R10>0.0146231875</R10>
+							<R11>0.999891818</R11>
+							<R12>-0.00159358408</R12>
+							<R20>-0.994006932</R20>
+							<R21>0.0147097623</R21>
+							<R22>0.108323418</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX59">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.36193946</R00>
+							<R01>-2.04414283e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.36193946</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208771e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.36193946</R00>
+							<R01>-2.04414283e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.36193946</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208771e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX60">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.36193946</R00>
+							<R01>-2.04414283e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.36193946</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208771e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.36193946</R00>
+							<R01>-2.04414283e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.36193946</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208771e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX61">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.36193946</R00>
+							<R01>-2.04414283e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.36193946</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208771e-008</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>0.36193946</R00>
+							<R01>-2.04414283e-021</R01>
+							<R02>0.932201624</R02>
+							<R10>-0.932201624</R10>
+							<R11>-4.37113883e-008</R11>
+							<R12>0.36193946</R12>
+							<R20>4.07478282e-008</R20>
+							<R21>-1</R21>
+							<R22>-1.58208771e-008</R22>
+						</CoordinateFrame>
+						<string name="Name">Weld</string>
+						<Ref name="Part0">RBX22</Ref>
+						<Ref name="Part1">RBX22</Ref>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="BlockMesh" referent="RBX62">
+				<Properties>
+					<float name="Bevel">0</float>
+					<float name="Bevel Roundness">0</float>
+					<float name="Bulge">0</float>
+					<token name="LODX">2</token>
+					<token name="LODY">2</token>
+					<string name="Name">Mesh</string>
+					<Vector3 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="Scale">
+						<X>0.25</X>
+						<Y>0.25</Y>
+						<Z>9984.53516</Z>
+					</Vector3>
+					<Vector3 name="VertexColor">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX63">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ArmMove</string>
+					<ProtectedString name="Source">Tool = script.Parent
+local arms = nil
+local torso = nil
+local welds = {}
+
+function Equip(mouse)
+wait(0.5)
+arms = {Tool.Parent:FindFirstChild(&quot;Left Arm&quot;), Tool.Parent:FindFirstChild(&quot;Right Arm&quot;)}
+torso = Tool.Parent:FindFirstChild(&quot;Torso&quot;)
+if arms ~= nil and torso ~= nil then
+local sh = {torso:FindFirstChild(&quot;Left Shoulder&quot;), torso:FindFirstChild(&quot;Right Shoulder&quot;)}
+if sh ~= nil then
+local yes = true
+if yes then
+yes = false
+sh[1].Part1 = nil
+sh[2].Part1 = nil
+local weld1 = Instance.new(&quot;Weld&quot;)
+weld1.Part0 = torso
+weld1.Parent = torso
+weld1.Part1 = arms[1]
+weld1.C1 = CFrame.new(-0.4, 1.34, 0.7) * CFrame.fromEulerAnglesXYZ(math.rad(290), 0, math.rad(-90))
+welds[1] = weld1
+local weld2 = Instance.new(&quot;Weld&quot;)
+weld2.Part0 = torso
+weld2.Parent = torso
+weld2.Part1 = arms[2]
+weld2.C1 = CFrame.new(-1, -0.2, 0.35) * CFrame.fromEulerAnglesXYZ(math.rad(-90), math.rad(-15), 0)
+welds[2] = weld2
+end
+else
+print(&quot;sh&quot;)
+end
+else
+print(&quot;arms&quot;)
+end
+end
+
+function Unequip(mouse)
+if arms ~= nil and torso ~= nil then
+local sh = {torso:FindFirstChild(&quot;Left Shoulder&quot;), torso:FindFirstChild(&quot;Right Shoulder&quot;)}
+if sh ~= nil then
+local yes = true
+if yes then
+yes = false
+sh[1].Part1 = arms[1]
+sh[2].Part1 = arms[2]
+welds[1].Parent = nil
+welds[2].Parent = nil
+end
+else
+print(&quot;sh&quot;)
+end
+else
+print(&quot;arms&quot;)
+end
+end
+Tool.Equipped:connect(Equip)
+Tool.Unequipped:connect(Unequip)
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="LocalScript" referent="RBX64">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">IFF</string>
+					<ProtectedString name="Source">--Green for Friendly, and Red for foe&apos;s. Kind of like the type Pinkyblt and Griff27 uses in thier games.
+
+bin = script.Parent
+normel = &quot;http://www.roblox.com/asset/?id=7419350&quot;
+friendly = &quot;http://www.roblox.com/asset/?id=7419364&quot;
+enemy = &quot;http://www.roblox.com/asset/?id=7419379&quot;
+function Run(mouse)
+	mouse.Icon = normel
+	local hit = mouse.Target
+	if (hit == nil) then return end
+        h = hit.Parent:FindFirstChild(&quot;Humanoid&quot;)
+        if h ~= nil then
+        torso = hit.Parent.Torso
+        if torso ~= nil then
+        if h.Health &gt; 0 then
+	if (torso.BrickColor == bin.Parent.Torso.BrickColor) then
+        mouse.Icon = friendly
+        elseif torso.BrickColor ~= bin.Parent.Torso.BrickColor then
+        mouse.Icon = enemy
+        end
+        end
+        end
+        
+	end
+end
+
+
+
+
+
+
+
+function on(mouse)
+        while true do
+        wait()
+	Run(mouse)
+        end
+end
+
+
+
+script.Parent.Equipped:connect(on)
+
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="LocalScript" referent="RBX65">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Two handed script</string>
+					<ProtectedString name="Source">function Weld(x,y)
+	local W = Instance.new(&quot;Weld&quot;)
+	W.Part0 = x
+	W.Part1 = y
+	local CJ = CFrame.new(x.Position)
+	local C0 = x.CFrame:inverse()*CJ
+	local C1 = y.CFrame:inverse()*CJ
+	W.C0 = C0
+	W.C1 = C1
+	W.Parent = x
+end
+
+function Get(A)
+	if A.className == &quot;Part&quot; then
+		Weld(script.Parent.Handle, A)
+		A.Anchored = false
+	else
+		local C = A:GetChildren()
+		for i=1, #C do
+		Get(C[i])
+		end
+	end
+end
+
+function Finale()
+	Get(script.Parent)
+end
+
+script.Parent.Equipped:connect(Finale)
+script.Parent.Unequipped:connect(Finale)
+Finale()</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+				<Item class="Script" referent="RBX66">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Welding</string>
+						<ProtectedString name="Source">function Weld(x,y)
+	local W = Instance.new(&quot;Weld&quot;)
+	W.Part0 = x
+	W.Part1 = y
+	local CJ = CFrame.new(x.Position)
+	local C0 = x.CFrame:inverse()*CJ
+	local C1 = y.CFrame:inverse()*CJ
+	W.C0 = C0
+	W.C1 = C1
+	W.Parent = x
+end
+
+function Get(A)
+	if A.className == &quot;Part&quot; then
+		Weld(script.Parent.Handle, A)
+		A.Anchored = false
+	else
+		local C = A:GetChildren()
+		for i=1, #C do
+		Get(C[i])
+		end
+	end
+end
+
+function Finale()
+	Get(script.Parent)
+end
+
+script.Parent.Equipped:connect(Finale)
+script.Parent.Unequipped:connect(Finale)
+Finale()</ProtectedString>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX67">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Welding positon</string>
+						<ProtectedString name="Source">player = nil
+RSH, LSH = nil, nil
+GRP = nil
+RW, LW = Instance.new(&quot;Weld&quot;), Instance.new(&quot;Weld&quot;)
+anim = &quot;none&quot;
+
+script.Parent.Equipped:connect(function()
+	player = game.Players:playerFromCharacter(script.Parent.Parent)
+	local ch = script.Parent.Parent
+	RSH = ch.Torso[&quot;Right Shoulder&quot;]
+	LSH = ch.Torso[&quot;Left Shoulder&quot;]
+	GRP = ch[&quot;Right Arm&quot;].RightGrip
+	--
+	RSH.Parent = nil
+	LSH.Parent = nil
+	--
+	RW.Part0 = ch.Torso
+	RW.C0 = CFrame.new(1.5, 0.5, 0) 
+	RW.C1 = CFrame.new(0, 0.5, 0)
+	RW.Part1 = ch[&quot;Right Arm&quot;]
+	RW.Parent = ch.Torso
+	_G.R = RW
+	--
+	LW.Part0 = ch.Torso
+	LW.C0 = CFrame.new(-1.5, 0.5, 0) 
+	LW.C1 = CFrame.new(0, 0.5, 0)
+	LW.Part1 = ch[&quot;Left Arm&quot;]
+	LW.Parent = ch.Torso
+	_G.L = LW
+
+	GRP.C0 = CFrame.new(0, -1, 0) * CFrame.fromEulerAnglesXYZ(-1, 0, 0)
+
+	for i = 0, 1, 0.05 do
+		wait()
+		RW.C0 = CFrame.new(1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(1.3*i, 0, -0.5*i)
+		LW.C0 = CFrame.new(-1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(1.7*i, 0, 0.8*i)	
+		LW.C1 = CFrame.new(-0.3*i, 0.5+1.2*i, 0)
+	end
+end)
+
+
+script.Parent.Unequipped:connect(function()
+
+	for i = 1, 0, -0.05 do
+		wait()
+		RW.C0 = CFrame.new(1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(1.3*i, 0, -0.5*i)
+		LW.C0 = CFrame.new(-1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(1.7*i, 0, 0.8*i)	
+		LW.C1 = CFrame.new(-0.3*i, 0.5+1.2*i, 0)
+	end
+	RW.Parent = nil
+	LW.Parent = nil
+	RSH.Parent = player.Character.Torso
+	LSH.Parent = player.Character.Torso
+end)
+
+function HomeRunHit(part)
+	local h = (part.Parent or game):FindFirstChild(&quot;Humanoid&quot;) 
+	if h then
+		h.Parent = nil
+	end
+end
+
+</ProtectedString>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+				<Item class="LocalScript" referent="RBX68">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">BackupWeld</string>
+						<ProtectedString name="Source">function Weld(x,y)
+	local W = Instance.new(&quot;Weld&quot;)
+	W.Part0 = x
+	W.Part1 = y
+	local CJ = CFrame.new(x.Position)
+	local C0 = x.CFrame:inverse()*CJ
+	local C1 = y.CFrame:inverse()*CJ
+	W.C0 = C0
+	W.C1 = C1
+	W.Parent = x
+end
+
+function Get(A)
+	if A.className == &quot;Part&quot; then
+		Weld(script.Parent.Handle, A)
+		A.Anchored = false
+	else
+		local C = A:GetChildren()
+		for i=1, #C do
+		Get(C[i])
+		end
+	end
+end
+
+function Finale()
+	Get(script.Parent)
+end
+
+script.Parent.Equipped:connect(Finale)
+script.Parent.Unequipped:connect(Finale)
+Finale()</ProtectedString>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="LocalScript" referent="RBX69">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">LocalScript</string>
+					<ProtectedString name="Source">--by Malvaviscos. If you find a glitch, please report it to me.
+MaxDistance = 9999999--The max distance you can fire
+Tool = script.Parent
+TouchDamage = 100 -- Disabled, but optional.
+DirectDamage = 100 -- The damage dealed if someone is hit directly.
+ReloadTime = 8
+
+function fireLaser(pos, obj)
+	
+	local part = Instance.new(&quot;Part&quot;)
+	part.Anchored = true
+	part.CanCollide = false
+	part.formFactor = &quot;Symmetric&quot;
+	part.TopSurface = 0
+	part.BottomSurface = 0
+	part.BrickColor = game.Players:findFirstChild(Tool.Parent.Name).TeamColor
+	part.Transparency = 0.5
+	part.Name = &quot;Laser Shot&quot;
+	part.Locked = true
+	part.Size = Vector3.new(1,1,(pos - obj.Position).magnitude)
+	part.CFrame = CFrame.new(((obj.Position + pos)/2) + 1 * (pos - obj.Position).unit, pos)
+
+	local mesh = Instance.new(&quot;BlockMesh&quot;)
+	mesh.Scale = Vector3.new(0.25,0.25,1)
+	mesh.Parent = part
+
+	part.Parent = workspace
+	--Optional:  Laser will damage others than the target.
+	--part.Touched:connect(onTouch)
+
+	getTarget(pos)
+	
+	for v=1, 10 do
+		part.Transparency = 0.1 * v
+		wait(0.05)
+	end
+
+	part:remove()
+end
+
+function getTarget(pos)
+	local child = workspace:getChildren()
+	for i,v in pairs(child) do
+		local h = getHumanoid(v)
+		if h ~= nil and v ~= Tool.Parent then
+			local torso = v:findFirstChild(&quot;Torso&quot;)
+			if torso ~= nil then
+				if (torso.Position - pos).magnitude &lt;= 3 then
+					local player = game.Players:findFirstChild(Tool.Parent.Name)
+					if player ~= nil then
+						tagHumanoid(h)
+					end
+					h:takeDamage(DirectDamage)
+					wait(ReloadTime)
+					untagHumanoid(h)
+				end
+			end
+		end
+	end
+end
+				
+
+function getHumanoid(obj)
+	local child = obj:getChildren()
+	for i=1, #child do 
+		if child[i].className == &quot;Humanoid&quot; then
+			return child[i]
+		end
+	end
+	return nil
+end
+
+db = false
+function onTouch(hit)
+	if db then return end
+	db = true
+	if hit.Parent ~= Tool.Parent then
+		local h = getHumanoid(hit.Parent)
+		if h ~= nil then
+			local player = game.Players:findFirstChild(Tool.Parent.Name)
+			if player ~= nil then
+				tagHumanoid(h, player)
+			end
+			h:takeDamage(TouchDamage)
+			wait(ReloadTime)
+			untagHumanoid(h)
+		end
+	end
+	wait(0.9)
+	db = false
+end
+			
+
+function tagHumanoid(humanoid, player)
+	local creator_tag = Instance.new(&quot;ObjectValue&quot;)
+	creator_tag.Value = player
+	creator_tag.Name = &quot;creator&quot;
+	creator_tag.Parent = humanoid
+end
+
+function untagHumanoid(humanoid)
+	if humanoid ~= nil then
+		local tag = humanoid:findFirstChild(&quot;creator&quot;)
+		if tag ~= nil then
+			tag.Parent = nil
+		end
+	end
+end
+
+enabled = true
+function onActivated(mouse)
+	if not enabled then return end
+	enabled = false
+	local handle = Tool:findFirstChild(&quot;Handle&quot;)
+	local human = Tool.Parent:findFirstChild(&quot;Humanoid&quot;)
+	if handle ~= nil and human ~= nil then
+		if (handle.Position - human.TargetPoint).magnitude &lt;= MaxDistance then
+			handle.Fire:play()
+			fireLaser(human.TargetPoint, handle)
+		end
+	end
+	enabled = true
+end
+
+mouseabled = true
+function onButton1Down(mouse)
+	if not mouseabled or mouse.Target == nil then return end
+	mouseabled = false
+	wait(ReloadTime)
+	mouseabled = true
+end
+
+zoom = false
+function onKeyDown(key)
+	key:lower()
+	if key == &quot;z&quot; then -- Some of these I took from the awp because I didn&apos;t know how to modify the camera, since there are not tutorials in the wiki.
+		if not zoom then
+			zoom = true
+
+			local obj = Instance.new(&quot;Part&quot;)
+			obj.Parent = Tool.Parent
+			obj.Size = Vector3.new(1,1,1)
+			obj.Transparency = 1
+			obj.CanCollide = false
+			obj.Anchored = true
+			obj.Name = &quot;Zoom&quot;
+			obj.CFrame = CFrame.new(Tool.Parent.Humanoid.TargetPoint)
+
+			Tool.Parent.Torso.Anchored = true
+
+			cam = workspace.CurrentCamera:Clone()
+			cam.Parent = workspace
+			workspace.CurrentCamera.CameraSubject = obj
+			workspace.CurrentCamera.CameraType = 4	
+		else
+			zoom = false
+	
+			local check = Tool.Parent:findFirstChild(&quot;Zoom&quot;)
+			if check ~= nil then 
+				check:remove()
+			end
+			
+			Tool.Parent.Torso.Anchored = false
+			
+			workspace.CurrentCamera.CameraSubject = Tool.Parent.Humanoid
+			workspace.CurrentCamera:Remove()
+			workspace.CurrentCamera = cam
+		end
+	end
+end
+
+function onSelected(mouse)
+	connection = script.Parent.Activated:connect(onActivated)
+	mouse.KeyDown:connect(onKeyDown)
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+function onDeselected()
+	connection:disconnect()
+end
+
+script.Parent.Equipped:connect(onSelected)
+script.Parent.Unequipped:connect(onDeselected)</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="StarterGui" referent="RBX70">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX71">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX72">
+		<Properties>
+			<string name="Name">CollectionService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX73">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX74">
+		<Properties>
+			<string name="Name">BadgeService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX75">
+		<Properties>
+			<string name="Name">Geometry</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX76">
+		<Properties>
+			<string name="Name">SocialService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX77">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Timer" referent="RBX78">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX79">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX80">
+		<Properties>
+			<string name="Name">Selection</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX81">
+		<Properties>
+			<Color3 name="Ambient">4286611584</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<float name="GeographicLatitude">41.7332993</float>
+			<string name="Name">Lighting</string>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Script" referent="RBX82">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">removepart</string>
+				<ProtectedString name="Source">wait(0.1)
+script.Parent.Transparency = 0.1
+wait()
+script.Parent.Transparency = 0.2
+wait()
+script.Parent.Transparency = 0.3
+wait()
+script.Parent.Transparency = 0.4
+wait()
+script.Parent.Transparency = 0.5
+wait()
+script.Parent.Transparency = 0.6
+wait()
+script.Parent.Transparency = 0.7
+wait()
+script.Parent.Transparency = 0.8
+wait()
+script.Parent.Transparency = 0.9
+wait()
+script.Parent.Transparency = 1
+wait()
+script.Parent:Remove()
+
+</ProtectedString>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="HopperBin" referent="RBX83">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">0</token>
+				<string name="Name">Rope10</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script" referent="RBX84">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">RopeLauncher</string>
+					<ProtectedString name="Source">Ropes = 0 -- The current amount of ropes out.
+MaxRopes = 20 -- The maximum ropes out for this player at a time.
+MaxDistance = 500 -- The maximum distance for a rope to be created.
+
+
+
+function onButton1Down(mouse)
+	if Ropes &gt;= MaxRopes then 
+		printMessage(&quot;You can only have &quot;..MaxRopes..&quot; ropes out at a time. Press &apos;r&apos; to remove them.&quot;, 6)
+		return
+	end
+
+	local part = Instance.new(&quot;Part&quot;)
+	part.Name = &quot;Rope &quot;..game.Players.LocalPlayer.Name..&quot;&quot;
+	part.Anchored = true
+	part.TopSurface = 0
+	part.BottomSurface = 0
+	part.formFactor = &quot;Symmetric&quot;
+	part.BrickColor = BrickColor.new(&quot;White&quot;)
+	
+	local rscript = Game.Lighting.removepart:Clone()
+	rscript.Parent = part
+	rscript.Disabled = false
+
+	
+	local player = game.Players.LocalPlayer.Character
+	local torso = player:findFirstChild(&quot;Torso&quot;)
+	if torso ~= nil then
+		local dist = (mouse.Hit.p - torso.Position)
+		if dist.magnitude &gt; MaxDistance then return end
+		part.Size = Vector3.new(0,0,dist.magnitude)
+		part.CFrame = CFrame.new((mouse.Hit.p + torso.Position)/2, mouse.Hit.p)
+		part.Velocity = part.CFrame.lookVector * 30
+		part.Parent = workspace
+		Ropes = Ropes + 1
+	end
+end
+
+function onKeyDown(key)
+	if key == &quot;r&quot; then
+		Ropes = 0
+		local get = workspace:getChildren()
+		for _,child in pairs(get) do
+			if child.Name == &quot;Rope &quot;..game.Players.LocalPlayer.Name..&quot;&quot; then
+				child:remove()
+			end
+		end
+	end
+end
+
+msg = Instance.new(&quot;Hint&quot;)
+function printMessage(text, time)
+	msg.Parent = game.Players.LocalPlayer
+	msg.Text = text
+	wait(time)
+	msg.Parent = nil
+end
+
+function onSelected(mouse)
+	mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+	mouse.KeyDown:connect(onKeyDown)
+end
+
+script.Parent.Selected:connect(onSelected)
+</ProtectedString>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX85">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Teams" referent="RBX86">
+		<Properties>
+			<string name="Name">Teams</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Team" referent="RBX87">
+			<Properties>
+				<bool name="AutoAssignable">true</bool>
+				<bool name="AutoColorCharacters">true</bool>
+				<string name="Name">Bright blue Team</string>
+				<int name="Score">0</int>
+				<int name="TeamColor">23</int>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="MeshContentProvider" referent="RBX88">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="TextureContentProvider" referent="RBX89">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+</roblox>
