@@ -1,0 +1,1703 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+		</Properties>
+		<Item class="Terrain" referent="RBX2">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>-2</X>
+					<Y>126</Y>
+					<Z>-2</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<string name="ClusterGridV2"></string>
+				<float name="Elasticity">0.300000012</float>
+				<float name="Friction">0.5</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Terrain</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>94.742424</X>
+					<Y>41.7531662</Y>
+					<Z>-73.9294891</Z>
+					<R00>0.999590099</R00>
+					<R01>0.0106366184</R01>
+					<R02>-0.0265808459</R02>
+					<R10>9.31322575e-010</R10>
+					<R11>0.928425193</R11>
+					<R12>0.371519566</R12>
+					<R20>0.0286300369</R20>
+					<R21>-0.371367276</R21>
+					<R22>0.928044558</R22>
+				</CoordinateFrame>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>94.7955856</X>
+					<Y>41.010128</Y>
+					<Z>-75.7855759</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>11.5</X>
+					<Y>0.5</Y>
+					<Z>15.5</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">0</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>25</X>
+					<Y>1</Y>
+					<Z>27</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="SpawnLocation" referent="RBX4">
+			<Properties>
+				<bool name="AllowTeamChangeOnTouch">false</bool>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">2</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">2</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>12</X>
+					<Y>1.60000002</Y>
+					<Z>18</Z>
+					<R00>-1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>-1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<int name="Duration">10</int>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">2</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">2</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">SpawnLocation</string>
+				<bool name="Neutral">true</bool>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">2</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int name="TeamColor">194</int>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>6</X>
+					<Y>1.20000005</Y>
+					<Z>6</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Decal" referent="RBX5">
+				<Properties>
+					<token name="Face">1</token>
+					<string name="Name">Decal</string>
+					<float name="Shiny">20</float>
+					<float name="Specular">0</float>
+					<Content name="Texture"><url>rbxasset://Textures/SpawnLocation.png</url></Content>
+					<float name="Transparency">0</float>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX6">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>106.5</X>
+					<Y>0.5</Y>
+					<Z>-198</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>197</X>
+					<Y>1</Y>
+					<Z>228</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX7">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">LeaderBord</string>
+				<ProtectedString name="Source">function PlayerEntered(newPlayer) 
+local stats = Instance.new(&quot;IntValue&quot;) 
+stats.Parent = newPlayer 
+stats.Name = &quot;leaderstats&quot; 
+
+local money = Instance.new(&quot;IntValue&quot;) 
+money.Parent = stats 
+money.Name = &quot;points&quot; 
+money.Value = 0
+end 
+
+game.Players.ChildAdded:connect(PlayerEntered) 
+</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX8">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Main</string>
+				<ProtectedString name="Source">wait (10)
+
+function stick(x, y)
+&#9;weld = Instance.new(&quot;Weld&quot;) 
+&#9;weld.Part0 = x
+&#9;weld.Part1 = y
+&#9;local HitPos = x.Position
+&#9;local CJ = CFrame.new(HitPos) 
+&#9;local C0 = x.CFrame:inverse() *CJ 
+&#9;local C1 = y.CFrame:inverse() * CJ 
+&#9;weld.C0 = C0 
+&#9;weld.C1 = C1 
+&#9;weld.Parent = x
+end
+
+function Weldnow(v)
+&#9;c = v:children()
+&#9;for n = 1, #c do
+&#9;&#9;if (c[n].className == &quot;Part&quot;) then
+&#9;&#9;&#9;if (c[n].Name ~= &quot;MainPart&quot;) then
+&#9;&#9;&#9;&#9;stick(c[n], v.MainPart)
+&#9;&#9;&#9;&#9;wait()
+&#9;&#9;&#9;&#9;c[n].Anchored = false
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;if (c[n].className == &quot;VehicleSeat&quot;) then
+&#9;&#9;&#9;if (c[n].Name ~= &quot;MainPart&quot;) then
+&#9;&#9;&#9;&#9;stick(c[n], v.MainPart)
+&#9;&#9;&#9;&#9;wait()
+&#9;&#9;&#9;&#9;c[n].Anchored = false
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;if (c[n].className == &quot;Seat&quot;) then
+&#9;&#9;&#9;if (c[n].Name ~= &quot;MainPart&quot;) then
+&#9;&#9;&#9;&#9;stick(c[n], v.MainPart)
+&#9;&#9;&#9;&#9;wait()
+&#9;&#9;&#9;&#9;c[n].Anchored = false
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;end
+end
+
+
+
+
+while true do
+&#9;&#9;for i,v in pairs(game.Lighting.minigames:children()) do
+&#9;&#9;&#9;x = math.random(1,100)
+&#9;&#9;&#9;&#9;if x &lt;= v.Rate.Value then
+&#9;&#9;&#9;&#9;&#9;z = v:Clone()
+&#9;&#9;&#9;&#9;&#9;z.Parent = game.Workspace
+&#9;&#9;&#9;&#9;&#9;--Weldnow(z)
+&#9;&#9;&#9;&#9;&#9;game.Workspace.TimeLeft.Value = 1
+&#9;&#9;&#9;&#9;&#9;repeat
+&#9;&#9;&#9;&#9;&#9;&#9;wait(1)
+&#9;&#9;&#9;&#9;&#9;until game.Workspace.TimeLeft.Value == 0
+&#9;&#9;&#9;&#9;&#9;wait (10)
+&#9;&#9;&#9;&#9;end
+&#9;&#9;end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="NumberValue" referent="RBX9">
+			<Properties>
+				<string name="Name">TimeLeft</string>
+				<double name="Value">0</double>
+			</Properties>
+			<Item class="Script" referent="RBX10">
+				<Properties>
+					<bool name="Disabled">true</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Script</string>
+					<ProtectedString name="Source">local x = tick()
+
+repeat&#9;
+wait(1)
+script.Parent.Value = script.Parent.Value - (tick() - x)
+x = tick()
+until script.Parent.Value &lt;= 0
+script.Parent.Value = 0
+script.Disabled = true
+</ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="CustomEvent" referent="RBX11">
+			<Properties>
+				<string name="Name">CustomEvent</string>
+				<float name="PersistedCurrentValue">0</float>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX12">
+		<Properties>
+			<string name="Name">StarterPack</string>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX13">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX14">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX15">
+		<Properties>
+			<string name="Name">CollectionService</string>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX16">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX17">
+		<Properties>
+			<string name="Name">BadgeService</string>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX18">
+		<Properties>
+			<string name="Name">Geometry</string>
+		</Properties>
+	</Item>
+	<Item class="RenderHooksService" referent="RBX19">
+		<Properties>
+			<string name="Name">RenderHooksService</string>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX20">
+		<Properties>
+			<string name="Name">SocialService</string>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBX21">
+		<Properties>
+			<string name="Name">GamePassService</string>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX22">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX23">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX24">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX25">
+		<Properties>
+			<string name="Name">CookiesService</string>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX26">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX27">
+		<Properties>
+			<bool name="CharacterAutoLoads">true</bool>
+			<string name="Name">Players</string>
+		</Properties>
+	</Item>
+	<Item class="FWService" referent="RBX28">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="UserInputService" referent="RBX29">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX30">
+		<Properties>
+			<string name="Name">Selection</string>
+		</Properties>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX31">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX32">
+		<Properties>
+			<Color3 name="Ambient">4286611584</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<Color3 name="FogColor">4290822336</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<string name="Name">Lighting</string>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+		<Item class="Model" referent="RBX33">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">minigames</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Model" referent="RBX34">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">sword-fight</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Script" referent="RBX35">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Tp</string>
+						<ProtectedString name="Source">alive = {}
+tijd = 300
+tools = true
+
+function onHumanoidDied(humanoid, player)
+&#9;x = player.Name
+&#9;&#9;for i=1,#alive do
+&#9;&#9;&#9;&#9;if alive[i] == player.Name then
+&#9;&#9;&#9;&#9;&#9;table.remove (alive,i)
+&#9;&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;if #alive == 1 then
+&#9;&#9;&#9;script.Parent.TimeLeft.Value = 0
+&#9;&#9;end
+end
+
+for i,v in pairs(game.Players:children()) do
+&#9;CH = v.Character
+&#9;body =  CH.Torso
+&#9;humanoid = CH.Humanoid
+&#9;x = math.random(script.a.Value.x,script.b.Value.x)
+&#9;y = math.random(script.a.Value.y,script.b.Value.y)
+&#9;z = math.random(script.b.Value.z,script.a.Value.z)
+&#9;body.CFrame = CFrame.new(x,y,z)
+&#9;wait ()
+&#9;if tools == true then
+&#9;&#9;&#9;for i,q in pairs(script.Parent.Tools:GetChildren()) do
+  &#9;&#9;&#9;&#9;r = q:Clone()
+   &#9;&#9;&#9;r.Parent = v.Backpack
+&#9;&#9;&#9;end
+&#9;end
+&#9;
+&#9;table.insert (alive,v.Name)
+&#9;humanoid.Died:connect(function() onHumanoidDied(humanoid, v) end )
+end
+script.Parent.start.Disabled = false
+game.Workspace.TimeLeft.Value = tijd
+game.Workspace.TimeLeft.Script.Disabled = false
+
+
+repeat
+wait (0.5)
+until game.Workspace.TimeLeft.Value &lt;= 0
+
+
+if #alive &gt;= 1 then
+&#9;print &quot;a&quot;
+&#9;&#9;for i=1,#alive do
+&#9;&#9;&#9;&#9;print &quot;b&quot;
+&#9;&#9;&#9;&#9;for f,v in pairs(game.Players:children()) do
+&#9;&#9;&#9;&#9;&#9;&#9;print &quot;c&quot;
+&#9;&#9;&#9;&#9;&#9;&#9;if alive[i] == v.Name then
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;print &quot;d&quot;
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;   v.leaderstats.points.Value = v.leaderstats.points.Value + (script.Parent.Points.Value/#alive) + 10
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;CH = v.Character
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;body =  CH.Torso
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;body:remove()
+&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;end
+&#9;&#9;end
+end
+&#9;&#9;
+script.Parent:remove()</ProtectedString>
+					</Properties>
+					<Item class="Vector3Value" referent="RBX36">
+						<Properties>
+							<string name="Name">b</string>
+							<Vector3 name="Value">
+								<X>107</X>
+								<Y>10</Y>
+								<Z>-198</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Vector3Value" referent="RBX37">
+						<Properties>
+							<string name="Name">a</string>
+							<Vector3 name="Value">
+								<X>106</X>
+								<Y>10</Y>
+								<Z>-198</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="NumberValue" referent="RBX38">
+					<Properties>
+						<string name="Name">Rate</string>
+						<double name="Value">10</double>
+					</Properties>
+				</Item>
+				<Item class="NumberValue" referent="RBX39">
+					<Properties>
+						<string name="Name">Points</string>
+						<double name="Value">100</double>
+					</Properties>
+				</Item>
+				<Item class="Model" referent="RBX40">
+					<Properties>
+						<CoordinateFrame name="ModelInPrimary">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<string name="Name">Tools</string>
+						<Ref name="PrimaryPart">null</Ref>
+					</Properties>
+					<Item class="Tool" referent="RBX41">
+						<Properties>
+							<bool name="CanBeDropped">false</bool>
+							<bool name="Enabled">true</bool>
+							<CoordinateFrame name="Grip">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>-1.5</Z>
+								<R00>0</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>1</R10>
+								<R11>0</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>0</R22>
+							</CoordinateFrame>
+							<string name="Name">LinkedSword</string>
+							<Content name="TextureId"><url>rbxasset://Textures/Sword128.png</url></Content>
+							<string name="ToolTip"></string>
+						</Properties>
+						<Item class="Script" referent="RBX42">
+							<Properties>
+								<bool name="Disabled">false</bool>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">SwordScript</string>
+								<ProtectedString name="Source">--Got this one on the first try. What a simple edit. x3 ~Bloxmaster998144 
+
+r = game:service(&quot;RunService&quot;)
+
+
+local damage = 5
+
+
+local slash_damage = 10
+local lunge_damage = 30
+
+sword = script.Parent.Handle
+Tool = script.Parent
+
+
+local SlashSound = Instance.new(&quot;Sound&quot;)
+SlashSound.SoundId = &quot;rbxasset://sounds\\swordslash.wav&quot;
+SlashSound.Parent = sword
+SlashSound.Volume = .7
+
+local LungeSound = Instance.new(&quot;Sound&quot;)
+LungeSound.SoundId = &quot;rbxasset://sounds\\swordlunge.wav&quot;
+LungeSound.Parent = sword
+LungeSound.Volume = .6
+
+local UnsheathSound = Instance.new(&quot;Sound&quot;)
+UnsheathSound.SoundId = &quot;rbxasset://sounds\\unsheath.wav&quot;
+UnsheathSound.Parent = sword
+UnsheathSound.Volume = 1
+
+
+function blow(hit)
+&#9;if (hit.Parent == nil) then return end 
+
+&#9;local humanoid = hit.Parent:findFirstChild(&quot;Humanoid&quot;)
+&#9;local vCharacter = Tool.Parent
+&#9;local vPlayer = game.Players:playerFromCharacter(vCharacter)
+&#9;local hum = vCharacter:findFirstChild(&quot;Humanoid&quot;) 
+&#9;if humanoid and humanoid ~= hum and hum then
+&#9;&#9;-- final check, make sure sword is in-hand
+&#9;&#9;local guygettingsliced = game.Players:GetPlayerFromCharacter(hit.Parent) --OH LOOK, here&apos;s an edit 
+&#9;&#9;local right_arm = vCharacter:FindFirstChild(&quot;Right Arm&quot;)
+&#9;&#9;if (right_arm) then
+&#9;&#9;&#9;local joint = right_arm:FindFirstChild(&quot;RightGrip&quot;)
+&#9;&#9;&#9;if (joint and (joint.Part0 == sword or joint.Part1 == sword)) then
+&#9;&#9;&#9;&#9;if guygettingsliced then --If he&apos;s a player 
+&#9;&#9;&#9;&#9;&#9;if vPlayer.TeamColor ~= guygettingsliced.TeamColor then  
+&#9;&#9;&#9;&#9;&#9;&#9;tagHumanoid(humanoid, vPlayer)
+&#9;&#9;&#9;&#9;&#9;&#9;humanoid:TakeDamage(damage)
+&#9;&#9;&#9;&#9;&#9;&#9;wait(1)
+&#9;&#9;&#9;&#9;&#9;&#9;untagHumanoid(humanoid)
+&#9;&#9;&#9;&#9;&#9;end  
+&#9;&#9;&#9;&#9;else --If he&apos;s not a player (AI, shop, etc) 
+&#9;&#9;&#9;&#9;&#9;tagHumanoid(humanoid, vPlayer)
+&#9;&#9;&#9;&#9;&#9;humanoid:TakeDamage(damage)
+&#9;&#9;&#9;&#9;&#9;wait(1)
+&#9;&#9;&#9;&#9;&#9;untagHumanoid(humanoid)
+&#9;&#9;&#9;&#9;end 
+&#9;&#9;&#9;end
+&#9;&#9;end
+
+--Added those two (if player/if not player) in so this wouldn&apos;t break if you used it on AI, or something of the sort. 
+
+
+&#9;end
+end
+
+
+function tagHumanoid(humanoid, player)
+&#9;local creator_tag = Instance.new(&quot;ObjectValue&quot;)
+&#9;creator_tag.Value = player
+&#9;creator_tag.Name = &quot;creator&quot;
+&#9;creator_tag.Parent = humanoid
+end
+
+function untagHumanoid(humanoid)
+&#9;if humanoid ~= nil then
+&#9;&#9;local tag = humanoid:findFirstChild(&quot;creator&quot;)
+&#9;&#9;if tag ~= nil then
+&#9;&#9;&#9;tag.Parent = nil
+&#9;&#9;end
+&#9;end
+end
+
+
+function attack()
+&#9;damage = slash_damage
+&#9;SlashSound:play()
+&#9;local anim = Instance.new(&quot;StringValue&quot;)
+&#9;anim.Name = &quot;toolanim&quot;
+&#9;anim.Value = &quot;Slash&quot;
+&#9;anim.Parent = Tool
+end
+
+function lunge()
+&#9;damage = lunge_damage
+
+&#9;LungeSound:play()
+
+&#9;local anim = Instance.new(&quot;StringValue&quot;)
+&#9;anim.Name = &quot;toolanim&quot;
+&#9;anim.Value = &quot;Lunge&quot;
+&#9;anim.Parent = Tool
+&#9;
+&#9;
+&#9;force = Instance.new(&quot;BodyVelocity&quot;)
+&#9;force.velocity = Vector3.new(0,10,0) --Tool.Parent.Torso.CFrame.lookVector * 80
+&#9;force.Parent = Tool.Parent.Torso
+&#9;wait(.25)
+&#9;swordOut()
+&#9;wait(.25)
+&#9;force.Parent = nil
+&#9;wait(.5)
+&#9;swordUp()
+
+&#9;damage = slash_damage
+end
+
+function swordUp()
+&#9;Tool.GripForward = Vector3.new(-1,0,0)
+&#9;Tool.GripRight = Vector3.new(0,1,0)
+&#9;Tool.GripUp = Vector3.new(0,0,1)
+end
+
+function swordOut()
+&#9;Tool.GripForward = Vector3.new(0,0,1)
+&#9;Tool.GripRight = Vector3.new(0,-1,0)
+&#9;Tool.GripUp = Vector3.new(-1,0,0)
+end
+
+function swordAcross()
+&#9;-- parry
+end
+
+
+Tool.Enabled = true
+local last_attack = 0
+function onActivated()
+
+&#9;if not Tool.Enabled then
+&#9;&#9;return
+&#9;end
+
+&#9;Tool.Enabled = false
+
+&#9;local character = Tool.Parent;
+&#9;local humanoid = character.Humanoid
+&#9;if humanoid == nil then
+&#9;&#9;print(&quot;Humanoid not found&quot;)
+&#9;&#9;return 
+&#9;end
+
+&#9;t = r.Stepped:wait()
+
+&#9;if (t - last_attack &lt; .2) then
+&#9;&#9;lunge()
+&#9;else
+&#9;&#9;attack()
+&#9;end
+
+&#9;last_attack = t
+
+&#9;--wait(.5)
+
+&#9;Tool.Enabled = true
+end
+
+
+function onEquipped()
+&#9;UnsheathSound:play()
+end
+
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+
+
+connection = sword.Touched:connect(blow)
+
+
+</ProtectedString>
+							</Properties>
+						</Item>
+						<Item class="Part" referent="RBX43">
+							<Properties>
+								<bool name="Anchored">false</bool>
+								<float name="BackParamA">-0.5</float>
+								<float name="BackParamB">0.5</float>
+								<token name="BackSurface">0</token>
+								<token name="BackSurfaceInput">0</token>
+								<float name="BottomParamA">-0.5</float>
+								<float name="BottomParamB">0.5</float>
+								<token name="BottomSurface">0</token>
+								<token name="BottomSurfaceInput">0</token>
+								<int name="BrickColor">199</int>
+								<CoordinateFrame name="CFrame">
+									<X>-36</X>
+									<Y>0.800000072</Y>
+									<Z>-62.5</Z>
+									<R00>3.42285418e-008</R00>
+									<R01>-7.01312287e-020</R01>
+									<R02>-0.99999994</R02>
+									<R10>-1.00298782e-018</R10>
+									<R11>1</R11>
+									<R12>-7.01312287e-020</R12>
+									<R20>0.99999994</R20>
+									<R21>1.00298782e-018</R21>
+									<R22>3.42285418e-008</R22>
+								</CoordinateFrame>
+								<bool name="CanCollide">true</bool>
+								<float name="Elasticity">0.5</float>
+								<float name="Friction">0.300000012</float>
+								<float name="FrontParamA">-0.5</float>
+								<float name="FrontParamB">0.5</float>
+								<token name="FrontSurface">0</token>
+								<token name="FrontSurfaceInput">0</token>
+								<float name="LeftParamA">-0.5</float>
+								<float name="LeftParamB">0.5</float>
+								<token name="LeftSurface">0</token>
+								<token name="LeftSurfaceInput">0</token>
+								<bool name="Locked">false</bool>
+								<token name="Material">256</token>
+								<string name="Name">Handle</string>
+								<float name="Reflectance">0.400000006</float>
+								<float name="RightParamA">-0.5</float>
+								<float name="RightParamB">0.5</float>
+								<token name="RightSurface">0</token>
+								<token name="RightSurfaceInput">0</token>
+								<Vector3 name="RotVelocity">
+									<X>0</X>
+									<Y>0</Y>
+									<Z>0</Z>
+								</Vector3>
+								<float name="TopParamA">-0.5</float>
+								<float name="TopParamB">0.5</float>
+								<token name="TopSurface">0</token>
+								<token name="TopSurfaceInput">0</token>
+								<float name="Transparency">0</float>
+								<Vector3 name="Velocity">
+									<X>0</X>
+									<Y>0</Y>
+									<Z>0</Z>
+								</Vector3>
+								<token name="formFactorRaw">2</token>
+								<token name="shape">1</token>
+								<Vector3 name="size">
+									<X>1</X>
+									<Y>0.800000012</Y>
+									<Z>4</Z>
+								</Vector3>
+							</Properties>
+							<Item class="SpecialMesh" referent="RBX44">
+								<Properties>
+									<token name="LODX">2</token>
+									<token name="LODY">2</token>
+									<Content name="MeshId"><url>rbxasset://fonts/sword.mesh</url></Content>
+									<token name="MeshType">5</token>
+									<string name="Name">Mesh</string>
+									<Vector3 name="Offset">
+										<X>0</X>
+										<Y>0</Y>
+										<Z>0</Z>
+									</Vector3>
+									<Vector3 name="Scale">
+										<X>1</X>
+										<Y>1</Y>
+										<Z>1</Z>
+									</Vector3>
+									<Content name="TextureId"><url>rbxasset://textures/SwordTexture.png</url></Content>
+									<Vector3 name="VertexColor">
+										<X>1</X>
+										<Y>1</Y>
+										<Z>1</Z>
+									</Vector3>
+								</Properties>
+							</Item>
+							<Item class="Sound" referent="RBX45">
+								<Properties>
+									<bool name="Looped">false</bool>
+									<string name="Name">Sound</string>
+									<float name="Pitch">1</float>
+									<bool name="PlayOnRemove">false</bool>
+									<Content name="SoundId"><url>rbxasset://sounds/swordslash.wav</url></Content>
+									<float name="Volume">0.699999988</float>
+								</Properties>
+							</Item>
+							<Item class="Sound" referent="RBX46">
+								<Properties>
+									<bool name="Looped">false</bool>
+									<string name="Name">Sound</string>
+									<float name="Pitch">1</float>
+									<bool name="PlayOnRemove">false</bool>
+									<Content name="SoundId"><url>rbxasset://sounds/swordlunge.wav</url></Content>
+									<float name="Volume">0.600000024</float>
+								</Properties>
+							</Item>
+							<Item class="Sound" referent="RBX47">
+								<Properties>
+									<bool name="Looped">false</bool>
+									<string name="Name">Sound</string>
+									<float name="Pitch">1</float>
+									<bool name="PlayOnRemove">false</bool>
+									<Content name="SoundId"><url>rbxasset://sounds/unsheath.wav</url></Content>
+									<float name="Volume">1</float>
+								</Properties>
+							</Item>
+						</Item>
+						<Item class="LocalScript" referent="RBX48">
+							<Properties>
+								<bool name="Disabled">false</bool>
+								<Content name="LinkedSource"><url>http://www.roblox.com/asset/?id=1014476</url></Content>
+								<string name="Name">Local Gui</string>
+								<ProtectedString name="Source"></ProtectedString>
+							</Properties>
+						</Item>
+						<Item class="LocalScript" referent="RBX49">
+							<Properties>
+								<bool name="Disabled">false</bool>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">WeldToBackScript</string>
+								<ProtectedString name="Source">handle = nil
+
+function onUnequipped()
+&#9;if script.Parent.Parent == workspace or script.Parent.Parent.className ~= &quot;Backpack&quot; then
+&#9;&#9;return
+&#9;end
+
+&#9;local char = script.Parent.Parent.Parent.Character
+&#9;if char ~= nil then
+&#9;&#9;local torso = char:findFirstChild(&quot;Torso&quot;)
+&#9;&#9;local tool = char:findFirstChild(script.Parent.Name)
+&#9;&#9;if torso ~= nil and tool == nil then
+&#9;&#9;&#9;local model = Instance.new(&quot;Model&quot;)
+&#9;&#9;&#9;model.Name = script.Parent.Name
+&#9;&#9;&#9;model.Parent = char
+
+&#9;&#9;&#9;handle = script.Parent.Handle:clone()
+&#9;&#9;&#9;handle.CanCollide = false
+&#9;&#9;&#9;handle.Name = script.Parent.Name
+&#9;&#9;&#9;handle.Parent = model
+
+&#9;&#9;&#9;local weld = Instance.new(&quot;Weld&quot;)
+&#9;&#9;&#9;weld.Name = &quot;BackWeld&quot;
+&#9;&#9;&#9;weld.Part0 = torso
+&#9;&#9;&#9;weld.Part1 = handle
+&#9;&#9;&#9;weld.C0 = CFrame.new(0,0,0.55)
+&#9;&#9;&#9;weld.C0 = weld.C0 * CFrame.fromEulerAnglesXYZ(math.rad(90),math.rad(30),0)
+&#9;&#9;&#9;weld.Parent = handle
+&#9;&#9;end
+&#9;end
+end
+
+script.Parent.Unequipped:connect(onUnequipped)
+
+function onEquipped()
+&#9;if handle ~= nil then 
+&#9;&#9;handle.Parent:remove()
+&#9;end
+end
+
+script.Parent.Equipped:connect(onEquipped)
+&#9;&#9;</ProtectedString>
+							</Properties>
+						</Item>
+						<Item class="CustomEvent" referent="RBX50">
+							<Properties>
+								<string name="Name">CustomEvent</string>
+								<float name="PersistedCurrentValue">0</float>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX51">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">sword-fight</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Script" referent="RBX52">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Tp</string>
+						<ProtectedString name="Source">alive = {}
+tijd = 300
+tools = true
+
+function onHumanoidDied(humanoid, player)
+&#9;x = player.Name
+&#9;&#9;for i=1,#alive do
+&#9;&#9;&#9;&#9;if alive[i] == player.Name then
+&#9;&#9;&#9;&#9;&#9;table.remove (alive,i)
+&#9;&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;if #alive == 1 then
+&#9;&#9;&#9;script.Parent.TimeLeft.Value = 0
+&#9;&#9;end
+end
+
+for i,v in pairs(game.Players:children()) do
+&#9;CH = v.Character
+&#9;body =  CH.Torso
+&#9;humanoid = CH.Humanoid
+&#9;x = math.random(script.a.Value.x,script.b.Value.x)
+&#9;y = math.random(script.a.Value.y,script.b.Value.y)
+&#9;z = math.random(script.b.Value.z,script.a.Value.z)
+&#9;body.CFrame = CFrame.new(x,y,z)
+&#9;wait ()
+&#9;if tools == true then
+&#9;&#9;&#9;for i,q in pairs(script.Parent.Tools:GetChildren()) do
+  &#9;&#9;&#9;&#9;r = q:Clone()
+   &#9;&#9;&#9;r.Parent = v.Backpack
+&#9;&#9;&#9;end
+&#9;end
+&#9;
+&#9;table.insert (alive,v.Name)
+&#9;humanoid.Died:connect(function() onHumanoidDied(humanoid, v) end )
+end
+script.Parent.start.Disabled = false
+game.Workspace.TimeLeft.Value = tijd
+game.Workspace.TimeLeft.Script.Disabled = false
+
+
+repeat
+wait (0.5)
+until game.Workspace.TimeLeft.Value &lt;= 0
+
+
+if #alive &gt;= 1 then
+&#9;print &quot;a&quot;
+&#9;&#9;for i=1,#alive do
+&#9;&#9;&#9;&#9;print &quot;b&quot;
+&#9;&#9;&#9;&#9;for f,v in pairs(game.Players:children()) do
+&#9;&#9;&#9;&#9;&#9;&#9;print &quot;c&quot;
+&#9;&#9;&#9;&#9;&#9;&#9;if alive[i] == v.Name then
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;print &quot;d&quot;
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;   v.leaderstats.points.Value = v.leaderstats.points.Value + (script.Parent.Points.Value/#alive) + 10
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;CH = v.Character
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;body =  CH.Torso
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;body:remove()
+&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;end
+&#9;&#9;end
+end
+&#9;&#9;
+script.Parent:remove()</ProtectedString>
+					</Properties>
+					<Item class="Vector3Value" referent="RBX53">
+						<Properties>
+							<string name="Name">b</string>
+							<Vector3 name="Value">
+								<X>107</X>
+								<Y>10</Y>
+								<Z>-198</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+					<Item class="Vector3Value" referent="RBX54">
+						<Properties>
+							<string name="Name">a</string>
+							<Vector3 name="Value">
+								<X>106</X>
+								<Y>10</Y>
+								<Z>-198</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="NumberValue" referent="RBX55">
+					<Properties>
+						<string name="Name">Rate</string>
+						<double name="Value">10</double>
+					</Properties>
+				</Item>
+				<Item class="NumberValue" referent="RBX56">
+					<Properties>
+						<string name="Name">Points</string>
+						<double name="Value">100</double>
+					</Properties>
+				</Item>
+				<Item class="Model" referent="RBX57">
+					<Properties>
+						<CoordinateFrame name="ModelInPrimary">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<string name="Name">Tools</string>
+						<Ref name="PrimaryPart">null</Ref>
+					</Properties>
+					<Item class="Tool" referent="RBX58">
+						<Properties>
+							<bool name="CanBeDropped">false</bool>
+							<bool name="Enabled">true</bool>
+							<CoordinateFrame name="Grip">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>-1.5</Z>
+								<R00>0</R00>
+								<R01>0</R01>
+								<R02>1</R02>
+								<R10>1</R10>
+								<R11>0</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>1</R21>
+								<R22>0</R22>
+							</CoordinateFrame>
+							<string name="Name">LinkedSword</string>
+							<Content name="TextureId"><url>rbxasset://Textures/Sword128.png</url></Content>
+							<string name="ToolTip"></string>
+						</Properties>
+						<Item class="Script" referent="RBX59">
+							<Properties>
+								<bool name="Disabled">false</bool>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">SwordScript</string>
+								<ProtectedString name="Source">--Got this one on the first try. What a simple edit. x3 ~Bloxmaster998144 
+
+r = game:service(&quot;RunService&quot;)
+
+
+local damage = 5
+
+
+local slash_damage = 10
+local lunge_damage = 30
+
+sword = script.Parent.Handle
+Tool = script.Parent
+
+
+local SlashSound = Instance.new(&quot;Sound&quot;)
+SlashSound.SoundId = &quot;rbxasset://sounds\\swordslash.wav&quot;
+SlashSound.Parent = sword
+SlashSound.Volume = .7
+
+local LungeSound = Instance.new(&quot;Sound&quot;)
+LungeSound.SoundId = &quot;rbxasset://sounds\\swordlunge.wav&quot;
+LungeSound.Parent = sword
+LungeSound.Volume = .6
+
+local UnsheathSound = Instance.new(&quot;Sound&quot;)
+UnsheathSound.SoundId = &quot;rbxasset://sounds\\unsheath.wav&quot;
+UnsheathSound.Parent = sword
+UnsheathSound.Volume = 1
+
+
+function blow(hit)
+&#9;if (hit.Parent == nil) then return end 
+
+&#9;local humanoid = hit.Parent:findFirstChild(&quot;Humanoid&quot;)
+&#9;local vCharacter = Tool.Parent
+&#9;local vPlayer = game.Players:playerFromCharacter(vCharacter)
+&#9;local hum = vCharacter:findFirstChild(&quot;Humanoid&quot;) 
+&#9;if humanoid and humanoid ~= hum and hum then
+&#9;&#9;-- final check, make sure sword is in-hand
+&#9;&#9;local guygettingsliced = game.Players:GetPlayerFromCharacter(hit.Parent) --OH LOOK, here&apos;s an edit 
+&#9;&#9;local right_arm = vCharacter:FindFirstChild(&quot;Right Arm&quot;)
+&#9;&#9;if (right_arm) then
+&#9;&#9;&#9;local joint = right_arm:FindFirstChild(&quot;RightGrip&quot;)
+&#9;&#9;&#9;if (joint and (joint.Part0 == sword or joint.Part1 == sword)) then
+&#9;&#9;&#9;&#9;if guygettingsliced then --If he&apos;s a player 
+&#9;&#9;&#9;&#9;&#9;if vPlayer.TeamColor ~= guygettingsliced.TeamColor then  
+&#9;&#9;&#9;&#9;&#9;&#9;tagHumanoid(humanoid, vPlayer)
+&#9;&#9;&#9;&#9;&#9;&#9;humanoid:TakeDamage(damage)
+&#9;&#9;&#9;&#9;&#9;&#9;wait(1)
+&#9;&#9;&#9;&#9;&#9;&#9;untagHumanoid(humanoid)
+&#9;&#9;&#9;&#9;&#9;end  
+&#9;&#9;&#9;&#9;else --If he&apos;s not a player (AI, shop, etc) 
+&#9;&#9;&#9;&#9;&#9;tagHumanoid(humanoid, vPlayer)
+&#9;&#9;&#9;&#9;&#9;humanoid:TakeDamage(damage)
+&#9;&#9;&#9;&#9;&#9;wait(1)
+&#9;&#9;&#9;&#9;&#9;untagHumanoid(humanoid)
+&#9;&#9;&#9;&#9;end 
+&#9;&#9;&#9;end
+&#9;&#9;end
+
+--Added those two (if player/if not player) in so this wouldn&apos;t break if you used it on AI, or something of the sort. 
+
+
+&#9;end
+end
+
+
+function tagHumanoid(humanoid, player)
+&#9;local creator_tag = Instance.new(&quot;ObjectValue&quot;)
+&#9;creator_tag.Value = player
+&#9;creator_tag.Name = &quot;creator&quot;
+&#9;creator_tag.Parent = humanoid
+end
+
+function untagHumanoid(humanoid)
+&#9;if humanoid ~= nil then
+&#9;&#9;local tag = humanoid:findFirstChild(&quot;creator&quot;)
+&#9;&#9;if tag ~= nil then
+&#9;&#9;&#9;tag.Parent = nil
+&#9;&#9;end
+&#9;end
+end
+
+
+function attack()
+&#9;damage = slash_damage
+&#9;SlashSound:play()
+&#9;local anim = Instance.new(&quot;StringValue&quot;)
+&#9;anim.Name = &quot;toolanim&quot;
+&#9;anim.Value = &quot;Slash&quot;
+&#9;anim.Parent = Tool
+end
+
+function lunge()
+&#9;damage = lunge_damage
+
+&#9;LungeSound:play()
+
+&#9;local anim = Instance.new(&quot;StringValue&quot;)
+&#9;anim.Name = &quot;toolanim&quot;
+&#9;anim.Value = &quot;Lunge&quot;
+&#9;anim.Parent = Tool
+&#9;
+&#9;
+&#9;force = Instance.new(&quot;BodyVelocity&quot;)
+&#9;force.velocity = Vector3.new(0,10,0) --Tool.Parent.Torso.CFrame.lookVector * 80
+&#9;force.Parent = Tool.Parent.Torso
+&#9;wait(.25)
+&#9;swordOut()
+&#9;wait(.25)
+&#9;force.Parent = nil
+&#9;wait(.5)
+&#9;swordUp()
+
+&#9;damage = slash_damage
+end
+
+function swordUp()
+&#9;Tool.GripForward = Vector3.new(-1,0,0)
+&#9;Tool.GripRight = Vector3.new(0,1,0)
+&#9;Tool.GripUp = Vector3.new(0,0,1)
+end
+
+function swordOut()
+&#9;Tool.GripForward = Vector3.new(0,0,1)
+&#9;Tool.GripRight = Vector3.new(0,-1,0)
+&#9;Tool.GripUp = Vector3.new(-1,0,0)
+end
+
+function swordAcross()
+&#9;-- parry
+end
+
+
+Tool.Enabled = true
+local last_attack = 0
+function onActivated()
+
+&#9;if not Tool.Enabled then
+&#9;&#9;return
+&#9;end
+
+&#9;Tool.Enabled = false
+
+&#9;local character = Tool.Parent;
+&#9;local humanoid = character.Humanoid
+&#9;if humanoid == nil then
+&#9;&#9;print(&quot;Humanoid not found&quot;)
+&#9;&#9;return 
+&#9;end
+
+&#9;t = r.Stepped:wait()
+
+&#9;if (t - last_attack &lt; .2) then
+&#9;&#9;lunge()
+&#9;else
+&#9;&#9;attack()
+&#9;end
+
+&#9;last_attack = t
+
+&#9;--wait(.5)
+
+&#9;Tool.Enabled = true
+end
+
+
+function onEquipped()
+&#9;UnsheathSound:play()
+end
+
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+
+
+connection = sword.Touched:connect(blow)
+
+
+</ProtectedString>
+							</Properties>
+						</Item>
+						<Item class="Part" referent="RBX60">
+							<Properties>
+								<bool name="Anchored">false</bool>
+								<float name="BackParamA">-0.5</float>
+								<float name="BackParamB">0.5</float>
+								<token name="BackSurface">0</token>
+								<token name="BackSurfaceInput">0</token>
+								<float name="BottomParamA">-0.5</float>
+								<float name="BottomParamB">0.5</float>
+								<token name="BottomSurface">0</token>
+								<token name="BottomSurfaceInput">0</token>
+								<int name="BrickColor">199</int>
+								<CoordinateFrame name="CFrame">
+									<X>-36</X>
+									<Y>0.800000072</Y>
+									<Z>-62.5</Z>
+									<R00>3.42285418e-008</R00>
+									<R01>-7.01312287e-020</R01>
+									<R02>-0.99999994</R02>
+									<R10>-1.00298782e-018</R10>
+									<R11>1</R11>
+									<R12>-7.01312287e-020</R12>
+									<R20>0.99999994</R20>
+									<R21>1.00298782e-018</R21>
+									<R22>3.42285418e-008</R22>
+								</CoordinateFrame>
+								<bool name="CanCollide">true</bool>
+								<float name="Elasticity">0.5</float>
+								<float name="Friction">0.300000012</float>
+								<float name="FrontParamA">-0.5</float>
+								<float name="FrontParamB">0.5</float>
+								<token name="FrontSurface">0</token>
+								<token name="FrontSurfaceInput">0</token>
+								<float name="LeftParamA">-0.5</float>
+								<float name="LeftParamB">0.5</float>
+								<token name="LeftSurface">0</token>
+								<token name="LeftSurfaceInput">0</token>
+								<bool name="Locked">false</bool>
+								<token name="Material">256</token>
+								<string name="Name">Handle</string>
+								<float name="Reflectance">0.400000006</float>
+								<float name="RightParamA">-0.5</float>
+								<float name="RightParamB">0.5</float>
+								<token name="RightSurface">0</token>
+								<token name="RightSurfaceInput">0</token>
+								<Vector3 name="RotVelocity">
+									<X>0</X>
+									<Y>0</Y>
+									<Z>0</Z>
+								</Vector3>
+								<float name="TopParamA">-0.5</float>
+								<float name="TopParamB">0.5</float>
+								<token name="TopSurface">0</token>
+								<token name="TopSurfaceInput">0</token>
+								<float name="Transparency">0</float>
+								<Vector3 name="Velocity">
+									<X>0</X>
+									<Y>0</Y>
+									<Z>0</Z>
+								</Vector3>
+								<token name="formFactorRaw">2</token>
+								<token name="shape">1</token>
+								<Vector3 name="size">
+									<X>1</X>
+									<Y>0.800000012</Y>
+									<Z>4</Z>
+								</Vector3>
+							</Properties>
+							<Item class="SpecialMesh" referent="RBX61">
+								<Properties>
+									<token name="LODX">2</token>
+									<token name="LODY">2</token>
+									<Content name="MeshId"><url>rbxasset://fonts/sword.mesh</url></Content>
+									<token name="MeshType">5</token>
+									<string name="Name">Mesh</string>
+									<Vector3 name="Offset">
+										<X>0</X>
+										<Y>0</Y>
+										<Z>0</Z>
+									</Vector3>
+									<Vector3 name="Scale">
+										<X>1</X>
+										<Y>1</Y>
+										<Z>1</Z>
+									</Vector3>
+									<Content name="TextureId"><url>rbxasset://textures/SwordTexture.png</url></Content>
+									<Vector3 name="VertexColor">
+										<X>1</X>
+										<Y>1</Y>
+										<Z>1</Z>
+									</Vector3>
+								</Properties>
+							</Item>
+							<Item class="Sound" referent="RBX62">
+								<Properties>
+									<bool name="Looped">false</bool>
+									<string name="Name">Sound</string>
+									<float name="Pitch">1</float>
+									<bool name="PlayOnRemove">false</bool>
+									<Content name="SoundId"><url>rbxasset://sounds/swordslash.wav</url></Content>
+									<float name="Volume">0.699999988</float>
+								</Properties>
+							</Item>
+							<Item class="Sound" referent="RBX63">
+								<Properties>
+									<bool name="Looped">false</bool>
+									<string name="Name">Sound</string>
+									<float name="Pitch">1</float>
+									<bool name="PlayOnRemove">false</bool>
+									<Content name="SoundId"><url>rbxasset://sounds/swordlunge.wav</url></Content>
+									<float name="Volume">0.600000024</float>
+								</Properties>
+							</Item>
+							<Item class="Sound" referent="RBX64">
+								<Properties>
+									<bool name="Looped">false</bool>
+									<string name="Name">Sound</string>
+									<float name="Pitch">1</float>
+									<bool name="PlayOnRemove">false</bool>
+									<Content name="SoundId"><url>rbxasset://sounds/unsheath.wav</url></Content>
+									<float name="Volume">1</float>
+								</Properties>
+							</Item>
+						</Item>
+						<Item class="LocalScript" referent="RBX65">
+							<Properties>
+								<bool name="Disabled">false</bool>
+								<Content name="LinkedSource"><url>http://www.roblox.com/asset/?id=1014476</url></Content>
+								<string name="Name">Local Gui</string>
+								<ProtectedString name="Source"></ProtectedString>
+							</Properties>
+						</Item>
+						<Item class="LocalScript" referent="RBX66">
+							<Properties>
+								<bool name="Disabled">false</bool>
+								<Content name="LinkedSource"><null></null></Content>
+								<string name="Name">WeldToBackScript</string>
+								<ProtectedString name="Source">handle = nil
+
+function onUnequipped()
+&#9;if script.Parent.Parent == workspace or script.Parent.Parent.className ~= &quot;Backpack&quot; then
+&#9;&#9;return
+&#9;end
+
+&#9;local char = script.Parent.Parent.Parent.Character
+&#9;if char ~= nil then
+&#9;&#9;local torso = char:findFirstChild(&quot;Torso&quot;)
+&#9;&#9;local tool = char:findFirstChild(script.Parent.Name)
+&#9;&#9;if torso ~= nil and tool == nil then
+&#9;&#9;&#9;local model = Instance.new(&quot;Model&quot;)
+&#9;&#9;&#9;model.Name = script.Parent.Name
+&#9;&#9;&#9;model.Parent = char
+
+&#9;&#9;&#9;handle = script.Parent.Handle:clone()
+&#9;&#9;&#9;handle.CanCollide = false
+&#9;&#9;&#9;handle.Name = script.Parent.Name
+&#9;&#9;&#9;handle.Parent = model
+
+&#9;&#9;&#9;local weld = Instance.new(&quot;Weld&quot;)
+&#9;&#9;&#9;weld.Name = &quot;BackWeld&quot;
+&#9;&#9;&#9;weld.Part0 = torso
+&#9;&#9;&#9;weld.Part1 = handle
+&#9;&#9;&#9;weld.C0 = CFrame.new(0,0,0.55)
+&#9;&#9;&#9;weld.C0 = weld.C0 * CFrame.fromEulerAnglesXYZ(math.rad(90),math.rad(30),0)
+&#9;&#9;&#9;weld.Parent = handle
+&#9;&#9;end
+&#9;end
+end
+
+script.Parent.Unequipped:connect(onUnequipped)
+
+function onEquipped()
+&#9;if handle ~= nil then 
+&#9;&#9;handle.Parent:remove()
+&#9;end
+end
+
+script.Parent.Equipped:connect(onEquipped)
+&#9;&#9;</ProtectedString>
+							</Properties>
+						</Item>
+						<Item class="CustomEvent" referent="RBX67">
+							<Properties>
+								<string name="Name">CustomEvent</string>
+								<float name="PersistedCurrentValue">0</float>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+</roblox>

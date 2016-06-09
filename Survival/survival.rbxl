@@ -1,0 +1,817 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+		</Properties>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>12.7283726</X>
+					<Y>11.5757141</Y>
+					<Z>-20.3453789</Z>
+					<R00>-0.999986291</R00>
+					<R01>-0.0021757558</R01>
+					<R02>0.00475214422</R02>
+					<R10>2.32830616e-010</R10>
+					<R11>0.90923214</R11>
+					<R12>0.416289449</R12>
+					<R20>-0.00522654643</R20>
+					<R21>0.416283756</R21>
+					<R22>-0.909219742</R22>
+				</CoordinateFrame>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>12.7188683</X>
+					<Y>10.7431326</Y>
+					<Z>-18.5269337</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX2">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>-2</X>
+					<Y>126</Y>
+					<Z>-2</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<string name="ClusterGridV2"></string>
+				<float name="Elasticity">0.300000012</float>
+				<float name="Friction">0.5</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Terrain</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0.600000024</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Baseplate</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1000</X>
+					<Y>1.20000005</Y>
+					<Z>1000</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX4">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">CowClickerGame</string>
+				<ProtectedString name="Source">function save(number,player)
+&#9;local score = player:SaveNumber(tostring(number.Name)) 
+&#9;number.Value = score
+end
+
+
+function load(number,player)
+&#9;local score = player:LoadNumber(tostring(number.Name)) 
+&#9;number.Value = score
+end
+
+
+function onPlayerEntered(newPlayer)
+&#9; 
+&#9;
+&#9;local stats = Instance.new(&quot;IntValue&quot;)
+&#9;stats.Name = &quot;leaderstats&quot;
+
+&#9;local n0 = Instance.new(&quot;IntValue&quot;)
+&#9;n0.Name = &quot;money&quot;
+&#9;n0.Value = 0
+
+&#9;local n1 = Instance.new(&quot;IntValue&quot;)
+&#9;n1.Name = &quot;exp&quot;
+&#9;n1.Value = 0
+&#9;
+&#9;local n2 = Instance.new(&quot;IntValue&quot;)
+&#9;n2.Name = &quot;lvl&quot;
+&#9;n2.Value = 0
+
+&#9;local n3 = Instance.new(&quot;IntValue&quot;)
+&#9;n3.Name = &quot;thirsty&quot;
+&#9;n3.Value = 0
+&#9;
+&#9;local n4 = Instance.new(&quot;IntValue&quot;)
+&#9;n4.Name = &quot;hunger&quot;
+&#9;n4.Value = 0
+
+&#9;local n5 = Instance.new(&quot;IntValue&quot;)
+&#9;n5.Name = &quot;health&quot;
+&#9;n5.Value = 0
+&#9;
+&#9;--newPlayer:WaitForDataReady()
+&#9;--load(n0,newPlayer)
+&#9;--load(n1,newPlayer)
+&#9;--load(n2,newPlayer)
+&#9;--load(n3,newPlayer)
+&#9;--load(n4,newPlayer)
+&#9;--load(n5,newPlayer)
+&#9;&#9;
+&#9;if n2.Value == 0 then
+&#9;&#9;n2.Value = 1
+&#9;end
+&#9;
+&#9;stats.Parent = newPlayer
+&#9;n0.Parent = stats&#9;
+&#9;n1.Parent = stats
+&#9;n2.Parent = stats
+&#9;n3.Parent = stats
+&#9;n4.Parent = stats
+&#9;n5.Parent = stats&#9;&#9;
+end
+
+
+game.Players.PlayerAdded:connect(onPlayerEntered)</ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX5">
+		<Properties>
+			<string name="Name">StarterPack</string>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX6">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX7">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX8">
+		<Properties>
+			<string name="Name">CollectionService</string>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX9">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX10">
+		<Properties>
+			<string name="Name">BadgeService</string>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX11">
+		<Properties>
+			<string name="Name">Geometry</string>
+		</Properties>
+	</Item>
+	<Item class="RenderHooksService" referent="RBX12">
+		<Properties>
+			<string name="Name">RenderHooksService</string>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX13">
+		<Properties>
+			<string name="Name">SocialService</string>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBX14">
+		<Properties>
+			<string name="Name">GamePassService</string>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX15">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX16">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX17">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX18">
+		<Properties>
+			<string name="Name">CookiesService</string>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX19">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX20">
+		<Properties>
+			<bool name="CharacterAutoLoads">true</bool>
+			<string name="Name">Players</string>
+		</Properties>
+	</Item>
+	<Item class="FWService" referent="RBX21">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="UserInputService" referent="RBX22">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX23">
+		<Properties>
+			<string name="Name">ContextActionService</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX24">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX25">
+		<Properties>
+			<string name="Name">Selection</string>
+		</Properties>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX26">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX27">
+		<Properties>
+			<Color3 name="Ambient">4286611584</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<Color3 name="FogColor">4290822336</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7330017</float>
+			<bool name="GlobalShadows">false</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">4286611584</Color3>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+		<Item class="NumberValue" referent="RBX28">
+			<Properties>
+				<string name="Name">Tools</string>
+				<double name="Value">0</double>
+			</Properties>
+			<Item class="Tool" referent="RBX29">
+				<Properties>
+					<bool name="CanBeDropped">true</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">food-can</string>
+					<Content name="TextureId"><null></null></Content>
+					<string name="ToolTip"></string>
+				</Properties>
+				<Item class="Sound" referent="RBX30">
+					<Properties>
+						<bool name="Looped">false</bool>
+						<string name="Name">Ping</string>
+						<float name="Pitch">1</float>
+						<bool name="PlayOnRemove">false</bool>
+						<Content name="SoundId"><url>http://www.roblox.com/asset/?id=21433711</url></Content>
+						<float name="Volume">1</float>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX31">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<float name="BackParamA">0</float>
+						<float name="BackParamB">0</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">141</int>
+						<CoordinateFrame name="CFrame">
+							<X>12.8000002</X>
+							<Y>9.59999943</Y>
+							<Z>-17.4000015</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>-1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">512</token>
+						<string name="Name">Handle</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>0.799999833</X>
+							<Y>0.799999833</Y>
+							<Z>0.799999833</Z>
+						</Vector3>
+					</Properties>
+					<Item class="CylinderMesh" referent="RBX32">
+						<Properties>
+							<float name="Bevel">0</float>
+							<float name="Bevel Roundness">0</float>
+							<float name="Bulge">0</float>
+							<token name="LODX">2</token>
+							<token name="LODY">2</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX33">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Base</string>
+						<ProtectedString name="Source">character = script.Parent.Parent
+bin = script.Parent
+local player = game.Players:GetPlayerFromCharacter(character) 
+backpack = player.Backpack
+stats = backpack.Parent.leaderstats
+kind = stats.hunger
+
+bin.Name = bin.Title.Value .. &quot; - &quot; .. tostring(bin.recover.Value)
+
+
+
+
+
+function onButton1Down(mouse)
+&#9;local hit = mouse.Target
+
+&#9;if (hit == nil) or (halt == true) then return end
+&#9;halt = true
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+&#9;bin.Ping:play()
+
+&#9;if kind.Value == 100 then
+&#9;&#9;&#9;&#9;&#9;
+&#9;elseif kind.Value + bin.recover.Value &gt;= 100 then&#9;
+&#9;stats.exp.Value = stats.exp.Value + 100 - kind.Value 
+&#9;kind.Value = 100&#9;
+&#9;bin:Destroy()
+&#9;else
+&#9;kind.Value = kind.Value + bin.recover.Value&#9;
+&#9;stats.exp.Value = stats.exp.Value + bin.recover.Value&#9;
+&#9;bin:Destroy()&#9;
+&#9;end&#9;&#9;
+&#9;
+&#9;&#9;
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+end
+
+
+function onSelected(mouse)
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+&#9;if halt == true then &#9;
+&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+&#9;end&#9;
+&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+bin.Unequipped:connect(onDeselected)
+bin.Equipped:connect(onSelected)</ProtectedString>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX34">
+					<Properties>
+						<string name="Name">recover</string>
+						<int name="Value">11</int>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX35">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">random</string>
+						<ProtectedString name="Source">script.Parent.recover.Value = math.random(script.Parent.recover.Value-3,script.Parent.recover.Value+3)</ProtectedString>
+					</Properties>
+				</Item>
+				<Item class="StringValue" referent="RBX36">
+					<Properties>
+						<string name="Name">Title</string>
+						<string name="Value">food-can</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Tool" referent="RBX37">
+				<Properties>
+					<bool name="CanBeDropped">true</bool>
+					<bool name="Enabled">true</bool>
+					<CoordinateFrame name="Grip">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">bottle of water</string>
+					<Content name="TextureId"><null></null></Content>
+					<string name="ToolTip"></string>
+				</Properties>
+				<Item class="Sound" referent="RBX38">
+					<Properties>
+						<bool name="Looped">false</bool>
+						<string name="Name">Ping</string>
+						<float name="Pitch">1</float>
+						<bool name="PlayOnRemove">false</bool>
+						<Content name="SoundId"><url>http://www.roblox.com/asset/?id=21433711</url></Content>
+						<float name="Volume">1</float>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX39">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<float name="BackParamA">0</float>
+						<float name="BackParamB">0</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">141</int>
+						<CoordinateFrame name="CFrame">
+							<X>12.8000002</X>
+							<Y>10.4000006</Y>
+							<Z>-17.4000015</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>-1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">512</token>
+						<string name="Name">Handle</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>0.799999833</X>
+							<Y>0.799999833</Y>
+							<Z>0.799999833</Z>
+						</Vector3>
+					</Properties>
+					<Item class="CylinderMesh" referent="RBX40">
+						<Properties>
+							<float name="Bevel">0</float>
+							<float name="Bevel Roundness">0</float>
+							<float name="Bulge">0</float>
+							<token name="LODX">2</token>
+							<token name="LODY">2</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="LocalScript" referent="RBX41">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Base</string>
+						<ProtectedString name="Source">character = script.Parent.Parent
+bin = script.Parent
+local player = game.Players:GetPlayerFromCharacter(character) 
+backpack = player.Backpack
+stats = backpack.Parent.leaderstats
+kind = stats.hunger
+
+bin.Name = bin.Title.Value .. &quot; - &quot; .. tostring(bin.recover.Value)
+
+
+
+
+
+function onButton1Down(mouse)
+&#9;local hit = mouse.Target
+
+&#9;if (hit == nil) or (halt == true) then return end
+&#9;halt = true
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+&#9;bin.Ping:play()
+
+&#9;if kind.Value == 100 then
+&#9;&#9;&#9;&#9;&#9;
+&#9;elseif kind.Value + bin.recover.Value &gt;= 100 then&#9;
+&#9;stats.exp.Value = stats.exp.Value + 100 - kind.Value 
+&#9;kind.Value = 100&#9;
+&#9;bin:Destroy()
+&#9;else
+&#9;kind.Value = kind.Value + bin.recover.Value&#9;
+&#9;stats.exp.Value = stats.exp.Value + bin.recover.Value&#9;
+&#9;bin:Destroy()&#9;
+&#9;end&#9;&#9;
+&#9;
+&#9;&#9;
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+end
+
+
+function onSelected(mouse)
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+&#9;if halt == true then &#9;
+&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+&#9;end&#9;
+&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+bin.Unequipped:connect(onDeselected)
+bin.Equipped:connect(onSelected)</ProtectedString>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX42">
+					<Properties>
+						<string name="Name">recover</string>
+						<int name="Value">11</int>
+					</Properties>
+				</Item>
+				<Item class="Script" referent="RBX43">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">random</string>
+						<ProtectedString name="Source">script.Parent.recover.Value = math.random(script.Parent.recover.Value-3,script.Parent.recover.Value+3)</ProtectedString>
+					</Properties>
+				</Item>
+				<Item class="StringValue" referent="RBX44">
+					<Properties>
+						<string name="Name">Title</string>
+						<string name="Value">bottle of water</string>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
