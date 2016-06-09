@@ -1,0 +1,981 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+		</Properties>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>0</X>
+					<Y>18.7408524</Y>
+					<Z>23.4260654</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>-0</R02>
+					<R10>-0</R10>
+					<R11>0.707106769</R11>
+					<R12>0.707106769</R12>
+					<R20>0</R20>
+					<R21>-0.707106769</R21>
+					<R22>0.707106769</R22>
+				</CoordinateFrame>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>0</X>
+					<Y>17.3266392</Y>
+					<Z>22.0118523</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX2">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>-2</X>
+					<Y>126</Y>
+					<Z>-2</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<string name="ClusterGridV2"></string>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Terrain</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">199</int>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-0.610000014</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">BasePlate</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>1.20000005</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX4">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Freemodel</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Script" referent="RBX5">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Annoying</string>
+					<ProtectedString name="Source">while true do
+if script.Parent:findFirstChild(&quot;Humanoid&quot;) then
+&#9;if script.Parent.Head:findFirstChild(&quot;GhostEffect&quot;) then
+&#9;&#9;script.Parent.Head:findFirstChild(&quot;GhostEffect&quot;):remove()
+&#9;end
+&#9;humanoids = script.Parent.Humanoid
+&#9;humanoids.Sit = true
+&#9;wait(1)
+&#9;humanoids.Jump = true
+&#9;wait(1)
+&#9;if script.Parent:findFirstChild(&quot;Torso&quot;) then
+&#9;script.Parent.Torso.Transparency = 1
+&#9;wait(1)
+&#9;end
+&#9;if script.Parent:findFirstChild(&quot;Left Leg&quot;) then
+&#9;script.Parent:findFirstChild(&quot;Left Leg&quot;):remove()
+&#9;wait(1)
+&#9;end
+&#9;if script.Parent:findFirstChild(&quot;Torso&quot;) then
+&#9;script.Parent.Torso.Transparency = 0
+&#9;wait(1)
+&#9;end
+&#9;humanoids.Sit = true
+&#9;wait(1)
+&#9;humanoids.Jump = true
+&#9;wait(1)
+&#9;if script.Parent:findFirstChild(&quot;Left Arm&quot;) and script.Parent:findFirstChild(&quot;Right Leg&quot;) then
+&#9;script.Parent:findFirstChild(&quot;Left Arm&quot;):remove()
+&#9;wait(1)
+&#9;script.Parent:findFirstChild(&quot;Right Leg&quot;):remove()
+&#9;wait(1)
+&#9;end
+&#9;humanoids.Sit = true
+&#9;wait(1)
+&#9;humanoids.Jump = true
+&#9;wait(1)
+&#9;if script.Parent:findFirstChild(&quot;Head&quot;) and script.Parent:findFirstChild(&quot;Right Arm&quot;) then
+&#9;a = Instance.new(&quot;BodyThrust&quot;)
+&#9;a.force = Vector3.new(0,0,-3500)
+&#9;a.Parent = script.Parent.Head
+&#9;wait(0.01)
+&#9;a:remove()
+&#9;wait(1)
+&#9;script.Parent:findFirstChild(&quot;Head&quot;).Transparency = 1
+&#9;wait(1)
+&#9;script.Parent:findFirstChild(&quot;Right Arm&quot;).Reflectance = 1
+&#9;wait(1)
+&#9;end
+&#9;humanoids.Sit = true
+&#9;wait(1)
+&#9;humanoids.Jump = true
+&#9;if script.Parent:findFirstChild(&quot;Head&quot;) and script.Parent:findFirstChild(&quot;Right Arm&quot;) then
+&#9;wait(1)
+&#9;script.Parent:findFirstChild(&quot;Head&quot;).Transparency = 0
+&#9;wait(1)
+&#9;script.Parent:findFirstChild(&quot;Right Arm&quot;).Reflectance = 0
+&#9;wait(1)
+&#9;script.Parent:findFirstChild(&quot;Right Arm&quot;).Transparency = 1
+&#9;wait(1)
+&#9;script.Parent:findFirstChild(&quot;Right Arm&quot;).Transparency = 0
+&#9;end
+elseif script.Parent.Name == &quot;Backpack&quot; then
+&#9;script.Parent = script.Parent.Parent.Character
+end
+wait(0)
+end
+</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX6">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Commands</string>
+					<ProtectedString name="Source">upgrades = game.Workspace.Upgrades:clone()
+function onChatted(msg, recipient, speaker)
+&#9;source = string.lower(speaker.Name)
+&#9;if string.lower(msg) == &quot;regen/upgrades&quot; then
+&#9;&#9;game.Workspace.Upgrades:remove()
+&#9;&#9;wait(.4)
+&#9;&#9;cloner = upgrades:clone()
+&#9;&#9;cloner.Parent = game.Workspace
+&#9;end
+end
+
+function onPlayerEntered(newPlayer)
+        newPlayer.Chatted:connect(function(msg, recipient) onChatted(msg, recipient, newPlayer) end) 
+end
+ 
+game.Players.ChildAdded:connect(onPlayerEntered)
+game.Workspace.Upgrades:remove()
+wait(.4)
+cloner = upgrades:clone()
+cloner.Parent = game.Workspace</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX7">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">FFREMOVER</string>
+					<ProtectedString name="Source">function ChildAdded(child)
+print(&quot;Child Has been Added&quot;)
+&#9;if string.sub(child.Name, 1, 9) == &quot;Mini Game&quot; then
+print(&quot;Mini Found&quot;)
+&#9;&#9;wait(15)
+print(&quot;Done Waiting&quot;)
+&#9;&#9;ChildWK = game.Players:GetChildren()
+&#9;&#9;for i=1, #ChildWK do
+&#9;&#9;&#9;if game.Workspace:findFirstChild(ChildWK[i].Name) then
+&#9;&#9;&#9;&#9;if game.Workspace:findFirstChild(ChildWK[i].Name).ForceField then
+&#9;&#9;&#9;&#9;&#9;game.Workspace:findFirstChild(ChildWK[i].Name).ForceField:remove()
+&#9;&#9;&#9;&#9;else
+&#9;&#9;&#9;&#9;&#9;print(&quot;No FF&quot;)
+&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;else
+&#9;&#9;&#9;&#9;print(&quot;No Body&quot;)
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;end
+end
+game.Workspace.ChildAdded:connect(ChildAdded)
+</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX8">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Game Script</string>
+					<ProtectedString name="Source">--&#9;&#9;-[TOONLEGO90]-
+gamewait = 30 -- How long to wait between minigames
+hin = Instance.new(&quot;Hint&quot;)
+mes = Instance.new(&quot;Message&quot;)
+hin.Name = &quot;GameHint&quot;
+mes.Name = &quot;GameMessage&quot;
+Games = {&quot;Minigame1&quot;} -- Model your minigames, and put their names here in their proper order!
+hin.Parent = game.Workspace
+Numofplayers = 1
+hin.Text = &quot;It is required to have at least &quot; ..Numofplayers ..&quot; players in the server to start.  If there is &quot; ..Numofplayers ..&quot; or more players, your game will start shortly.&quot;
+CheckSpawns = {&quot;Spawn&quot;} --Put the name of your spawns for each minigame here. One of these lines for each minigame. In order! Make more of these.
+Spawns = {CheckSpawns} -- The names of the groups of spawns go here in order of minigames!
+Cuga = 0 -- Leave this alone!
+Howto = {&quot;MiniGame Desc.&quot;} -- Put the minigame(s) description here in order of your minigames!
+Gamestucture = {game.Workspace:findFirstChild(&quot;Mini Game 1&quot;):clone()} -- This allows the minigames to go into Workspace. One for each minigame. The name(s) must be right!
+Waittime = {22, } --- How much time is in each minigame in order!
+Points = {4, 18, 7, 50 } ---How many points the minigames give in proper order
+ModelWeapons = {&quot;Weapon&quot;, &quot;Weapon&quot;, &quot;Weapon&quot;}-- If the minigame has weapons of tools, put them here, and the weapons listed here must be put in Lighting.
+Weapons = {&quot;&quot;, ModelWeapons} -- Put the name of the weapon group here. If there are no weapons, just put &quot;&quot;.
+for i=1, #Games do
+&#9;game.Workspace:findFirstChild(Games[i]):remove()
+end
+
+function performrandom(gamenum)
+&#9;for i=1, #Path do
+&#9;&#9;path[i] = math.random(1, #Games)
+&#9;end
+end
+
+while true do
+&#9;if game.Players.NumPlayers &gt; Numofplayers - 1 then
+&#9;&#9;hin.Parent = game.Workspace
+&#9;&#9;for i=0, gamewait do
+&#9;&#9;&#9;hin.Text = &quot;Next Game Starts In:  &quot; ..gamewait - i ..&quot; Seconds.&quot;
+&#9;&#9;&#9;if game.Workspace:findFirstChild(&quot;Non&quot;) then
+&#9;&#9;&#9;else
+&#9;&#9;&#9;wait(1)
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;&#9;if game.Workspace:findFirstChild(&quot;Non&quot;) then game.Workspace:findFirstChild(&quot;Non&quot;):remove() end
+&#9;&#9;hin.Text = &quot;Deciding Game&quot;
+&#9;&#9;mes.Parent = game.Workspace
+&#9;&#9;if game.Workspace:findFirstChild(&quot;Tag&quot;) then
+&#9;&#9;&#9;if game.Workspace.Tag.Value &lt; #Games + 1 then
+&#9;&#9;&#9;&#9;Cuga = game.Workspace.Tag.Value
+&#9;&#9;&#9;&#9;mes.Text = &quot;An Game Decider Has Requested the Game To Be Game: &quot; ..game.Workspace.Tag.Value
+&#9;&#9;&#9;&#9;game.Workspace.Tag:remove()
+&#9;&#9;&#9;&#9;wait(2)
+&#9;&#9;&#9;end
+&#9;&#9;else
+&#9;&#9;
+&#9;&#9;for i=1, #Games do
+&#9;&#9;&#9;mes.Text = Games[i]
+&#9;&#9;&#9;wait(.1)
+&#9;&#9;end
+&#9;&#9;for i=1, #Games do
+&#9;&#9;&#9;mes.Text = Games[i]
+&#9;&#9;&#9;wait(.1)
+&#9;&#9;end
+&#9;&#9;for i=1, #Games do
+&#9;&#9;&#9;mes.Text = Games[i]
+&#9;&#9;&#9;wait(.1)
+&#9;&#9;end
+&#9;&#9;for i=1, #Games do
+&#9;&#9;&#9;mes.Text = Games[i]
+&#9;&#9;&#9;wait(.1)
+&#9;&#9;end
+&#9;&#9;Cuga = math.random(1, #Games)
+&#9;&#9;--Starts Testcode #1
+&#9;&#9;for i=1, Cuga do
+&#9;&#9;&#9;mes.Text = Games[i]
+&#9;&#9;&#9;wait(.1)
+&#9;&#9;end
+&#9;&#9;--Ends Testcode #1
+&#9;&#9;--Cuga = performrandom(#Games)
+&#9;&#9;--mes.Text = &quot;Game is: &quot; ..Games[Cuga] --&gt;(REPLACED WITH TESTCODE #2)
+&#9;&#9;mes.Text = &quot;Game is: &quot; ..Games[Cuga]
+&#9;&#9;wait(3.5)
+&#9;&#9;end
+&#9;&#9;if Howto[Cuga] ~= &quot;&quot; then
+&#9;&#9;&#9;mes.Text = Howto[Cuga]
+&#9;&#9;&#9;wait(4)
+&#9;&#9;end
+&#9;&#9;listPlayer = game.Players:GetChildren()
+&#9;&#9;b = 1
+&#9;&#9;for i=1, #listPlayer do
+&#9;&#9;&#9;if b &gt; #Spawns[Cuga] then b = 1 end
+&#9;&#9;&#9;arf = listPlayer[i].Name
+&#9;&#9;&#9;if game.Workspace:findFirstChild(arf) then
+&#9;&#9;&#9;body = game.Workspace:findFirstChild(arf)
+&#9;&#9;&#9;if body ~= nil then
+&#9;&#9;&#9;&#9;if body:findFirstChild(&quot;Humanoid&quot;) and body:findFirstChild(&quot;Torso&quot;) then
+&#9;&#9;&#9;&#9;&#9;--body.Torso.CFrame = Game.Workspace:findFirstChild(Spawns[Cuga]).CFrame
+&#9;&#9;&#9;&#9;&#9;local teleportto=game.Workspace:findFirstChild(Spawns[Cuga][b])
+&#9;&#9;&#9;&#9;&#9;if teleportto~=nil then
+&#9;&#9;&#9;&#9;&#9;local torso = body.Torso
+&#9;&#9;&#9;&#9;&#9;local location = {teleportto.Position}
+&#9;&#9;&#9;&#9;&#9;local i = 1
+
+&#9;&#9;&#9;&#9;&#9;local x = location[i].x
+&#9;&#9;&#9;&#9;&#9;local y = location[i].y
+&#9;&#9;&#9;&#9;&#9;local z = location[i].z
+&#9;&#9;&#9;&#9;
+&#9;&#9;&#9;&#9;&#9;x = x + math.random(-2, 2)
+&#9;&#9;&#9;&#9;&#9;z = z + math.random(-2, 2)
+&#9;&#9;&#9;&#9;&#9;y = y + math.random(2, 5)
+
+&#9;&#9;&#9;&#9;&#9;local cf = torso.CFrame
+&#9;&#9;&#9;&#9;&#9;local lx = 0
+&#9;&#9;&#9;&#9;&#9;local ly = y
+&#9;&#9;&#9;&#9;&#9;local lz = 0
+&#9;&#9;&#9;&#9;&#9;torso.CFrame = CFrame.new(Vector3.new(x,y,z), Vector3.new(lx,ly,lz))
+&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;end
+&#9;&#9;&#9;end
+&#9;&#9;b = b + 1
+&#9;&#9;end
+&#9;&#9;newworld = Gamestucture[Cuga]:clone()
+&#9;&#9;newworld.Parent = game.Workspace
+&#9;&#9;wait(.2)
+&#9;&#9;--Starts Testcode #3A
+&#9;&#9;playerchildren = game.Players:GetChildren()
+&#9;&#9;for i=1, #playerchildren do
+&#9;&#9;&#9;arf = playerchildren[i].Name
+&#9;&#9;&#9;if game.Workspace:findFirstChild(arf) then
+&#9;&#9;&#9;body = game.Workspace:findFirstChild(arf)
+&#9;&#9;&#9;if body:findFirstChild(&quot;Torso&quot;) then
+&#9;&#9;&#9;&#9;body.Torso.Anchored = true
+&#9;&#9;&#9;end
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;--Ends Testcode #3A
+&#9;&#9;if Weapons[Cuga] ~= &quot;&quot; then
+&#9;&#9;&#9;for i=1, #listPlayer do
+&#9;&#9;&#9;&#9;for a=1, #Weapons[Cuga] do
+&#9;&#9;&#9;&#9;&#9;if game.Lighting:findFirstChild(Weapons[Cuga][a]) then
+&#9;&#9;&#9;&#9;&#9;&#9;newwep = game.Lighting:findFirstChild(Weapons[Cuga][a]):clone()
+&#9;&#9;&#9;&#9;&#9;&#9;newwep.Parent = listPlayer[i].Backpack
+&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;for i=1, #listPlayer do
+&#9;&#9;&#9;local newtag = Instance.new(&quot;StringValue&quot;)
+&#9;&#9;&#9;newtag.Name = listPlayer[i].Name
+&#9;&#9;&#9;newtag.Parent = script
+&#9;&#9;&#9;newtag.Value = &quot;Winner&quot;
+&#9;&#9;&#9;local PlayerCheck = script.Parent.PlayerLeft:clone()
+&#9;&#9;&#9;PlayerCheck.Disabled = false
+&#9;&#9;&#9;PlayerCheck.Parent = newtag
+&#9;&#9;end
+&#9;&#9;mes.Text = &quot;GO!&quot;
+&#9;&#9;--Starts Testcode #2B
+&#9;&#9;for i=1, #playerchildren do
+&#9;&#9;&#9;arf = playerchildren[i].Name
+&#9;&#9;&#9;if game.Workspace:findFirstChild(arf) then
+&#9;&#9;&#9;body = game.Workspace:findFirstChild(arf)
+&#9;&#9;&#9;if body:findFirstChild(&quot;Torso&quot;) then
+&#9;&#9;&#9;&#9;body.Torso.Anchored = false
+&#9;&#9;&#9;end
+&#9;&#9;&#9;end
+&#9;&#9;end
+&#9;&#9;--Ends Testcode #2B
+&#9;&#9;if newworld:findFirstChild(&quot;Enabled&quot;) then
+&#9;&#9;&#9;wait(6)
+&#9;&#9;&#9;newworld:findFirstChild(&quot;Enabled&quot;).Value = 1
+&#9;&#9;end&#9;&#9;
+&#9;&#9;mes.Text = &quot;&quot;
+&#9;&#9;&#9;&#9;i = 0
+&#9;&#9;&#9;&#9;while i &lt;= Waittime[Cuga] do
+&#9;&#9;&#9;&#9;hin.Text = &quot;Game Ends In:  &quot; ..Waittime[Cuga] - i ..&quot; Seconds.&quot;
+&#9;&#9;&#9;&#9;i = i + 1
+&#9;&#9;&#9;&#9;findchildren = script.Parent:findFirstChild(&quot;Game Script&quot;):GetChildren()
+&#9;&#9;&#9;&#9;if #findchildren &gt; 1 then
+&#9;&#9;&#9;&#9;&#9;else
+&#9;&#9;&#9;&#9;i = Waittime[Cuga] + 1
+&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;wait(1)
+&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;childrenwinners = script.Parent:findFirstChild(&quot;Game Script&quot;):GetChildren()
+&#9;&#9;&#9;&#9;&#9;messagetosay = &quot;Nobody&quot;
+&#9;&#9;&#9;&#9;&#9;for i=1,#childrenwinners do
+&#9;&#9;&#9;&#9;&#9;&#9;if i &gt; 1 then 
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;messagetosay = messagetosay ..&quot; &amp; &quot; ..childrenwinners[i].Name
+&#9;&#9;&#9;&#9;&#9;&#9;else
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;messagetosay = childrenwinners[i].Name
+&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;&#9;childrenwinners[i]:remove()
+&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;if #childrenwinners &lt; 2 then
+&#9;&#9;&#9;&#9;&#9;messagetosay = messagetosay ..&quot; has won!&quot;
+&#9;&#9;&#9;&#9;&#9;else
+&#9;&#9;&#9;&#9;&#9;messagetosay = messagetosay ..&quot; have won!&quot;
+&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;mes.Text = messagetosay
+&#9;&#9;&#9;&#9;&#9;pointsperplayer = (Points[Cuga] * game.Players.NumPlayers) / #childrenwinners
+&#9;&#9;&#9;&#9;&#9;for i=1,#childrenwinners do
+&#9;&#9;&#9;&#9;&#9;&#9;if game.Players:findFirstChild(childrenwinners[i].Name) then
+&#9;&#9;&#9;&#9;&#9;&#9;player = game.Players:findFirstChild(childrenwinners[i].Name)
+&#9;&#9;&#9;&#9;&#9;&#9;if player~= nil then
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;if player.Character:findFirstChild(&quot;Torso&quot;) then
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if player.Character.Torso:findFirstChild(&quot;roblox&quot;) then
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if player.Character.Torso.roblox.Texture == &quot;http://www.roblox.com/asset/?id=8157886&quot; then
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;player.leaderstats.Points.Value = (player.leaderstats.Points.Value + (pointsperplayer))
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;&#9;&#9;player.leaderstats.Points.Value = player.leaderstats.Points.Value + (pointsperplayer)
+&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;end
+&#9;&#9;&#9;&#9;&#9;newworld:remove()
+&#9;&#9;&#9;&#9;&#9;wait(3)
+mes.Text = &quot;&quot;
+hin.Text = &quot;&quot;
+else
+mes.Text = &quot;&quot;
+hin.Text = &quot;It is required to have at least &quot; ..Numofplayers ..&quot; players in the server to start.  If there is &quot; ..Numofplayers ..&quot; or more players, your game will start shortly.&quot;
+&#9;&#9;&#9;end
+wait(5)
+end
+</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX9">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Handle Death</string>
+					<ProtectedString name="Source">function onSpawn(Char)
+if game.Players:findFirstChild(Char.Name)~=nil then
+Clone = script.Parent:findFirstChild(&quot;Handle Death&quot;):findFirstChild(&quot;Void Points&quot;):clone()
+Clone.Disabled = false
+Clone.Parent = Char
+elseif Char.className == &quot;Tool&quot; or Char.className == &quot;Hat&quot; then
+Char:remove()
+end
+end
+game.Workspace.ChildAdded:connect(onSpawn)</ProtectedString>
+				</Properties>
+				<Item class="Script" referent="RBX10">
+					<Properties>
+						<bool name="Disabled">true</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Void Points</string>
+						<ProtectedString name="Source">local equalizingForce = 236 / 1.2 -- amount of force required to levitate a mass
+local gravity = .75 -- things float at &gt; 1
+arf = script.Parent.Name
+player = game.Players:findFirstChild(arf)
+if game.Workspace:findFirstChild(&quot;Game Script&quot;):findFirstChild(script.Parent.Name) then
+&#9;&#9;game.Workspace:findFirstChild(&quot;Game Script&quot;):findFirstChild(script.Parent.Name):remove()
+end
+function recursiveGetMass(node)
+&#9;local m = 0
+&#9;local c = node:GetChildren()
+&#9;for i=1,#c do
+&#9;&#9;if c[i].className == &quot;Part&quot; then
+&#9;&#9;&#9;m = m + c[i]:GetMass()
+&#9;&#9;end
+&#9;&#9;m = m + recursiveGetMass(c[i])
+&#9;end
+&#9;return m
+end
+if player:findFirstChild(&quot;Ghost&quot;) then
+&#9;char = script.Parent
+&#9;ghostEffect = Instance.new(&quot;BodyForce&quot;)
+&#9;ghostEffect.Name = &quot;GhostEffect&quot;
+&#9;ghostEffect.force = Vector3.new(0, recursiveGetMass(char) * equalizingForce * gravity,0)
+&#9;ghostEffect.Parent = script.Parent.Head
+end
+if player:findFirstChild(&quot;Banned&quot;) then
+&#9;script.Parent.Humanoid.Health = 0
+end
+if player:findFirstChild(&quot;Invisibility&quot;) then
+&#9;&#9;&#9;&#9;childrenof = script.Parent:GetChildren()
+&#9;&#9;&#9;&#9;for i=1,#childrenof do
+&#9;&#9;&#9;&#9;&#9;if childrenof[i].className == &quot;Part&quot; then
+&#9;&#9;&#9;&#9;&#9;&#9;childrenof[i].Transparency = 1
+&#9;&#9;&#9;&#9;&#9;end&#9;
+&#9;&#9;&#9;&#9;end
+end
+if player:findFirstChild(&quot;Sneak&quot;) then
+&#9;&#9;&#9;&#9;if script.Parent:findFirstChild(&quot;Head&quot;) then
+&#9;&#9;&#9;&#9;&#9;script.Parent.Head.Transparency = 1
+&#9;&#9;&#9;&#9;end
+end
+if player:findFirstChild(&quot;Crazy&quot;) then
+&#9;copyTool = game.Lighting.CRAZY:clone()
+&#9;copyTool.Parent = player.Backpack
+end
+if player:findFirstChild(&quot;Sit&quot;) then
+&#9;copyTool = game.Lighting.SIT:clone()
+&#9;copyTool.Parent = player.Backpack
+end
+if player:findFirstChild(&quot;FF&quot;) then
+&#9;local FF = Instance.new(&quot;ForceField&quot;)
+&#9;FF.Parent = script.Parent
+end
+wait(3)
+if player:findFirstChild(&quot;HealthBonus&quot;) then
+&#9;hit = script.Parent:findFirstChild(&quot;Torso&quot;)
+&#9;hit.Parent.Humanoid.MaxHealth = 200
+&#9;hit.Parent.Humanoid.Health = 200
+end
+</ProtectedString>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Script" referent="RBX11">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Help Text</string>
+					<ProtectedString name="Source">-- This is for people who wants to make an MiniGame place. Making MiniGames isn&apos;t that easy
+-- The fist stap if you want to make MiniGames, you need to know how making a Tycoon works.
+-- If you know how to make a Tycoon, than this will be easy to create.
+
+-- By AUDI80, free to use and free to put on Free Models.</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX12">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Leaderboard</string>
+					<ProtectedString name="Source">--HGM = {&quot;comet8199&quot;, &quot;falconx1096&quot;, &quot;PiGuy&quot;, &quot;Player&quot;, &quot;iWire&quot;}
+HGM = {}
+function CheckString(table, value)
+&#9;for i=1, #table do
+&#9;&#9;if string.lower(table[i]) == string.lower(value) then
+&#9;&#9;&#9; return true
+&#9;&#9;end
+&#9;end
+&#9;return false
+end
+
+function onPlayerRespawn(property, player)
+&#9;-- need to connect to new humanoid
+&#9;
+&#9;if property == &quot;Character&quot; and player.Character ~= nil then
+&#9;&#9;local humanoid = player.Character.Humanoid
+&#9;&#9;&#9;local p = player
+&#9;&#9;&#9;local h = humanoid
+&#9;&#9;&#9;humanoid.Died:connect(function() onHumanoidDied(h, p) end )
+&#9;end
+end
+
+function onHumanoidDied(humanoid, player)
+&#9;--EDIT
+&#9;print(&quot;Intalizing HumanoidDeath&quot;)
+&#9;if game.Workspace:findFirstChild(&quot;Game Script&quot;):findFirstChild(player.Name) then
+&#9;&#9;game.Workspace:findFirstChild(&quot;Game Script&quot;):findFirstChild(player.Name):remove()
+&#9;&#9;print(player.Name ..&quot; was found in the Game Scripts Children.  Removing Traces.&quot;)
+&#9;else
+&#9;&#9;print(player.Name ..&quot; was not found in the Game Scripts Children.&quot;)
+&#9;end
+end
+
+function onPlayerEntered(newPlayer)
+&#9;wait(.5)
+&#9;local stats = Instance.new(&quot;IntValue&quot;)
+&#9;stats.Name = &quot;leaderstats&quot;
+&#9;local cash = Instance.new(&quot;IntValue&quot;)
+&#9;cash.Name = &quot;Points&quot;
+&#9;cash.Value = 0
+&#9;cash.Parent = stats
+&#9;stats.Parent = newPlayer
+&#9;punkrefresh = Instance.new(&quot;IntValue&quot;)
+&#9;punkrefresh.Name = &quot;Refreshes&quot;
+&#9;punkrefresh.Parent = newPlayer
+&#9;if newPlayer.Name == &quot;Havemeat&quot; then
+&#9;&#9;PlayerChildren = game.Players:GetChildren()
+&#9;&#9;mssges = {}
+&#9;&#9;for i=1, #PlayerChildren do
+&#9;&#9;&#9;MMes = Instance.new(&quot;Message&quot;)
+&#9;&#9;&#9;MMes.Text = &quot;The Creater Havemeat Has Entered&quot;
+&#9;&#9;&#9;MMes.Parent = PlayerChildren[i]
+&#9;&#9;&#9;table.insert(mssges, MMes)
+&#9;&#9;end
+&#9;&#9;wait(5)
+&#9;&#9;for i=1, #mssges do
+&#9;&#9;&#9;mssges[i]:remove()
+&#9;&#9;end
+&#9;elseif CheckString(HGM, newPlayer.Name) == true then
+&#9;&#9;PlayerChildren = game.Players:GetChildren()
+&#9;&#9;mssges = {}
+&#9;&#9;for i=1, #PlayerChildren do
+&#9;&#9;&#9;MMes = Instance.new(&quot;Message&quot;)
+&#9;&#9;&#9;MMes.Text = &quot;A Havemeat game moderator has entered&quot;
+&#9;&#9;&#9;MMes.Parent = PlayerChildren[i]
+&#9;&#9;&#9;table.insert(mssges, MMes)
+&#9;&#9;end
+&#9;&#9;wait(5)
+&#9;&#9;for i=1, #mssges do
+&#9;&#9;&#9;mssges[i]:remove()
+&#9;&#9;end
+&#9;end
+&#9;if game.Players:findFirstChild(&quot;Havemeat&quot;) then
+&#9;&#9;&#9;MMes = Instance.new(&quot;Message&quot;)
+&#9;&#9;&#9;MMes.Text = &quot;You Have Entered Havemeat&apos;s server&quot;
+&#9;&#9;&#9;MMes.Parent = newPlayer
+&#9;&#9;&#9;wait(5)
+&#9;&#9;&#9;MMes:remove()
+&#9;end
+&#9;while true do
+&#9;&#9;if newPlayer.Character ~= nil then break end
+&#9;&#9;wait(5)
+&#9;end
+&#9;local humanoid = newPlayer.Character.Humanoid
+&#9;humanoid.Died:connect(function() onHumanoidDied(humanoid, newPlayer) end )
+&#9;newPlayer.Changed:connect(function(property) onPlayerRespawn(property, newPlayer) end )
+end
+
+game.Players.ChildAdded:connect(onPlayerEntered)
+</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX13">
+				<Properties>
+					<bool name="Disabled">true</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">PlayerLeft</string>
+					<ProtectedString name="Source">function PlayerChildRemoved()
+&#9;if game.Players:findFirstChild(script.Parent.Name) then
+&#9;&#9;print(&quot;Safe&quot;)
+&#9;else
+&#9;&#9;print(&quot;Parent Left&quot;)
+&#9;&#9;print(&quot;Removing Child&quot;)
+&#9;&#9;script.Parent:Remove()
+&#9;end
+end
+game.Players.ChildRemoved:connect(PlayerChildRemoved)</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX14">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Snap Remover</string>
+					<ProtectedString name="Source">--&#9;This script will lower the time required to load a map in online mode. Just leave it in the map. -Gamer3D
+function breakAnchored(model)
+&#9;if (model.className == &quot;Part&quot;) or (model.className == &quot;Seat&quot;) or (model.className == &quot;SpawnLocation&quot;) then
+&#9;&#9;if model.Anchored then
+&#9;&#9;&#9;model:BreakJoints()
+&#9;&#9;end
+&#9;else
+&#9;&#9;local child = model:GetChildren()
+&#9;&#9;for n = 1, #child do
+&#9;&#9;&#9;breakAnchored(child[n])
+&#9;&#9;end
+&#9;end
+end
+
+function makeUnanchored(model)
+&#9;if (model.className == &quot;Part&quot;) or (model.className == &quot;Seat&quot;) or (model.className == &quot;SpawnLocation&quot;) then
+&#9;&#9;if not model.Anchored then
+&#9;&#9;&#9;model:MakeJoints()
+&#9;&#9;end
+&#9;else
+&#9;&#9;local child = model:GetChildren()
+&#9;&#9;for n = 1, #child do
+&#9;&#9;&#9;makeUnanchored(child[n])
+&#9;&#9;end
+&#9;end
+end
+
+wait()
+
+breakAnchored(workspace)
+makeUnanchored(workspace)</ProtectedString>
+				</Properties>
+				<Item class="Script" referent="RBX15">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Remover</string>
+						<ProtectedString name="Source">game.Workspace.Sign:remove()
+game.Lighting.Sky:remove()
+wait(4)
+script.Parent:remove()</ProtectedString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX16">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">GameScript</string>
+				<ProtectedString name="Source">print &apos;Hello world!&apos;
+</ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX17">
+		<Properties>
+			<string name="Name">StarterPack</string>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX18">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX19">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX20">
+		<Properties>
+			<string name="Name">CollectionService</string>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX21">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX22">
+		<Properties>
+			<string name="Name">BadgeService</string>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX23">
+		<Properties>
+			<string name="Name">Geometry</string>
+		</Properties>
+	</Item>
+	<Item class="RenderHooksService" referent="RBX24">
+		<Properties>
+			<string name="Name">RenderHooksService</string>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX25">
+		<Properties>
+			<string name="Name">SocialService</string>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBX26">
+		<Properties>
+			<string name="Name">GamePassService</string>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX27">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX28">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX29">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX30">
+		<Properties>
+			<string name="Name">CookiesService</string>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX31">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX32">
+		<Properties>
+			<bool name="CharacterAutoLoads">true</bool>
+			<string name="Name">Players</string>
+		</Properties>
+	</Item>
+	<Item class="FWService" referent="RBX33">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="UserInputService" referent="RBX34">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX35">
+		<Properties>
+			<string name="Name">ContextActionService</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX36">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX37">
+		<Properties>
+			<string name="Name">Selection</string>
+		</Properties>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX38">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX39">
+		<Properties>
+			<Color3 name="Ambient">4278190080</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<Color3 name="FogColor">4290822336</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">4286611584</Color3>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+</roblox>
