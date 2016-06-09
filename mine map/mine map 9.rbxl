@@ -1,0 +1,414 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>-3.67384315</X>
+					<Y>41.7305565</Y>
+					<Z>34.3603477</Z>
+					<R00>0.997925639</R00>
+					<R01>-0.0468786657</R01>
+					<R02>0.0441222116</R02>
+					<R10>-0</R10>
+					<R11>0.685373902</R11>
+					<R12>0.728191376</R12>
+					<R20>-0.064376846</R20>
+					<R21>-0.726680815</R21>
+					<R22>0.683952212</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>-4.55628777</X>
+					<Y>27.1667233</Y>
+					<Z>20.6812973</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX2">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">blok1</string>
+				<Ref name="PrimaryPart">null</Ref>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX3">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">map</string>
+				<ProtectedString name="Source">local ball = Game.Lighting.Ball:clone()
+local x = 0
+local y = 0
+local z = 0
+local Size = 0
+local miSize = 10
+local maSize = 16
+local nieuw = Game.Workspace.map.nieuw
+local staat = Game.Workspace.map.staat
+local klaar = true
+local name = &quot;hoi&quot; 
+local G = 0
+function rij()
+	if klaar == true then
+	rijmaak()
+	end
+end
+
+function name()
+G =	math.random(1,10)
+	if	 == 1 then name = dirt	
+	if G == 2 	then	name = dirt end
+	if G == 3 	then	name = dirt	end
+	if G == 4 	then	name = dirt end
+	if G == 5 	then	name = dirt end
+	if G == 6  	then	name = gold end
+	if G == 7 	then	name = silver end
+	if G == 8  	then	name = coal end
+	if G == 9  	then	name = coal end
+	eif G == 10	then	name = diamond	end
+	end
+Size = math.random(miSize,maSize)
+end
+
+
+function rijmaak()	
+klaar = false
+	y = 0
+	x = 0
+	for i = 1 ,6 do 
+		name()
+
+		balc = ball:clone()
+		balc.Size = Vector3.new(Size,Size,Size)
+		balc.CFrame = CFrame.new(x,y,z) 
+		balc.Name =
+		balc.Parent = Workspace.blok1	
+		x = x + 8 
+		wait()
+		end
+	y = y + 5
+	x = 5
+	for i = 1 ,6 do 
+		Size = math.random(miSize,maSize)
+		balc = ball:clone()
+		balc.Size = Vector3.new(Size,Size,Size)
+		balc.CFrame = CFrame.new(x,y,z) 
+		balc.Parent = Workspace.blok1	
+		x = x + 8 
+		wait()
+		end
+	y = y + 5
+	x = 0
+	for i = 1 ,6 do 
+		Size = math.random(miSize,maSize)
+		balc = ball:clone()
+		balc.Size = Vector3.new(Size,Size,Size)
+		balc.CFrame = CFrame.new(x,y,z) 
+		balc.Parent = Workspace.blok1	
+		x = x + 8 
+		wait()
+		end
+	y = y + 5
+	x = 5
+	for i = 1 ,6 do 
+		Size = math.random(miSize,maSize)
+		balc = ball:clone()
+		balc.Size = Vector3.new(Size,Size,Size)
+		balc.CFrame = CFrame.new(x,y,z) 
+		balc.Parent = Workspace.blok1	
+		x = x + 8 
+		wait()
+	end
+z = z + 8
+staat.Value = staat.Value + 1 
+klaar = true
+end
+
+while true do
+	if nieuw.Value &gt; staat.Value then
+	rijmaak()
+	end
+wait (1)
+end
+
+
+
+</ProtectedString>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="NumberValue" referent="RBX4">
+				<Properties>
+					<string name="Name">nieuw</string>
+					<double name="Value">0</double>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="NumberValue" referent="RBX5">
+				<Properties>
+					<string name="Name">staat</string>
+					<double name="Value">0</double>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="RunService" referent="RBX6">
+		<Properties>
+			<string name="Name">Run Service</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ContentProvider" referent="RBX7">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ContentFilter" referent="RBX8">
+		<Properties>
+			<string name="Name">ContentFilter</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="KeyframeSequenceProvider" referent="RBX9">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX10">
+		<Properties>
+			<int name="MaxPlayers">12</int>
+			<string name="Name">Players</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="StarterPack" referent="RBX11">
+		<Properties>
+			<string name="Name">StarterPack</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX12">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX13">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX14">
+		<Properties>
+			<string name="Name">CollectionService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX15">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX16">
+		<Properties>
+			<string name="Name">BadgeService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX17">
+		<Properties>
+			<string name="Name">Geometry</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX18">
+		<Properties>
+			<string name="Name">SocialService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX19">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Timer" referent="RBX20">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX21">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX22">
+		<Properties>
+			<string name="Name">Selection</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX23">
+		<Properties>
+			<Color3 name="Ambient">4286611584</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<float name="GeographicLatitude">41.7332993</float>
+			<string name="Name">Lighting</string>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Part" referent="RBX24">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">217</int>
+				<CoordinateFrame name="CFrame">
+					<X>-3</X>
+					<Y>4</Y>
+					<Z>2</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1280</token>
+				<string name="Name">Ball</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">0</token>
+				<Vector3 name="size">
+					<X>8</X>
+					<Y>8</Y>
+					<Z>8</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX25">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="MeshContentProvider" referent="RBX26">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="TextureContentProvider" referent="RBX27">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+</roblox>
