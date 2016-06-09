@@ -1,0 +1,2223 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+		</Properties>
+		<Item class="Terrain" referent="RBX2">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>-2</X>
+					<Y>126</Y>
+					<Z>-2</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<string name="ClusterGridV2"></string>
+				<float name="Elasticity">0.300000012</float>
+				<float name="Friction">0.5</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Terrain</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>-167.702805</X>
+					<Y>118.075897</Y>
+					<Z>73.6999435</Z>
+					<R00>0.1764424</R00>
+					<R01>0.623516619</R01>
+					<R02>-0.761639714</R02>
+					<R10>-7.45058149e-009</R10>
+					<R11>0.773779571</R11>
+					<R12>0.633454919</R12>
+					<R20>0.984310985</R20>
+					<R21>-0.111768298</R21>
+					<R22>0.136527523</R22>
+				</CoordinateFrame>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>-166.17952</X>
+					<Y>116.808983</Y>
+					<Z>73.4268875</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX3">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Script</string>
+				<ProtectedString name="Source">local part = script.Parent
+local place = script.Parent.Parent.Place
+
+local Xp = 0
+local Yp = 0
+local Zp = 0
+
+local times = (part - place).magnitude 
+
+
+local Xpn = (place.Position.x - part.Position.x) / times
+local Ypn = (place.Position.y - part.Position.y) / times
+local Zpn = (place.Position.z - part.Position.z) / times
+
+
+
+Xp = part.Position.x
+Yp = part.Position.y
+Zp = part.Position.z
+
+
+for i = 1,times do
+Xp = Xp + Xpn
+Yp = Yp + Ypn
+Zp = Zp + Zpn
+part.CFrame = CFrame.new (Xp,Yp,Zp)
+wait(0.001)
+end 
+script.Parent.Parent = nil
+
+
+
+
+</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX4">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Storage</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Part" referent="RBX5">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">38</int>
+					<CoordinateFrame name="CFrame">
+						<X>59.5</X>
+						<Y>1.5</Y>
+						<Z>21.5</Z>
+						<R00>-1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>-1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">512</token>
+					<string name="Name">storage</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">0</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>22</X>
+						<Y>1</Y>
+						<Z>18</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Model" referent="RBX6">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Wood</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX7">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">counter</string>
+				<ProtectedString name="Source">for i,v in pairs(game.Workspace.bos:children()) do
+print(v.Name)
+end
+</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX8">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">lags</string>
+				<ProtectedString name="Source">x = tick()
+wait(1)
+y = tick()-x
+print (y-1) 
+</ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX9">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">bos</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Part" referent="RBX10">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">37</int>
+					<CoordinateFrame name="CFrame">
+						<X>7.30011749</X>
+						<Y>0.5</Y>
+						<Z>3.30014038</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">true</bool>
+					<token name="Material">1280</token>
+					<string name="Name">Floor</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">3</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>375.199646</X>
+						<Y>1</Y>
+						<Z>242.80014</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Script" referent="RBX11">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Script</string>
+						<ProtectedString name="Source">trees = 1
+rand = 10
+
+
+function count (pos,part)
+dist = 1000
+for i,v in pairs(script.Parent.Parent:children()) do
+if v.Name == &quot;tree&quot; then
+&#9;if v ~= part then
+&#9;if (pos-v.wood.wood.Position).magnitude &lt;= dist then
+&#9;&#9;dist = (pos-v.wood.wood.Position).magnitude
+&#9;end
+&#9;end
+end
+
+end&#9;
+
+return dist
+end
+
+
+for i = 1,trees do 
+&#9;wait()
+&#9;
+seed = game.Lighting.tree:Clone()
+x = math.random(script.Parent.Position.x-(script.Parent.Size.x/2)+rand,script.Parent.Position.x+(script.Parent.Size.x/2)-rand)
+z = math.random(script.Parent.Position.z-(script.Parent.Size.z/2)+rand,script.Parent.Position.z+(script.Parent.Size.z/2)-rand)
+
+seed.wood.wood.CFrame = CFrame.new(x,-10,z)
+dist = count(seed.wood.wood.Position,seed)
+
+if dist &lt;= 10000 then
+
+seed.Parent = script.Parent.Parent
+else seed:Destroy() end
+
+end
+</ProtectedString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="NumberValue" referent="RBX12">
+			<Properties>
+				<string name="Name">lag</string>
+				<double name="Value">1</double>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX13">
+		<Properties>
+			<string name="Name">StarterPack</string>
+		</Properties>
+		<Item class="Tool" referent="RBX14">
+			<Properties>
+				<bool name="CanBeDropped">true</bool>
+				<bool name="Enabled">true</bool>
+				<CoordinateFrame name="Grip">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">leaf-cutter</string>
+				<Content name="TextureId"><null></null></Content>
+				<string name="ToolTip"></string>
+			</Properties>
+			<Item class="Sound" referent="RBX15">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Ping</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=21433711</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX16">
+				<Properties>
+					<bool name="Anchored">false</bool>
+					<float name="BackParamA">0</float>
+					<float name="BackParamB">0</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">199</int>
+					<CoordinateFrame name="CFrame">
+						<X>1.5</X>
+						<Y>2.10000014</Y>
+						<Z>-0.5</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>-0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">false</bool>
+					<float name="Elasticity">0.5</float>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">6</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">1072</token>
+					<string name="Name">Handle</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">0</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>3</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="LocalScript" referent="RBX17">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Buy</string>
+					<ProtectedString name="Source">bin = script.Parent
+player = bin.Parent.Parent
+
+function onButton1Down(mouse)
+&#9;local hit = mouse.Target
+
+&#9;if (hit == nil) or (halt == true) then return end
+&#9;halt = true
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+&#9;bin.Ping:play()
+&#9;if hit.Parent.Parent.Name == &quot;tree&quot; then
+&#9;&#9;local tree = hit.Parent.Parent
+&#9;&#9;&#9;for i,v in pairs(tree.leaf:children()) do
+&#9;&#9;&#9;&#9;v.CanCollide = false
+&#9;&#9;&#9;&#9;v.Anchored = false
+&#9;&#9;&#9;&#9;wait(0.5)
+&#9;&#9;&#9;&#9;v:Destroy()
+&#9;&#9;&#9;end
+&#9;&#9;tree.wood.Parent = game.Workspace.bos
+&#9;&#9;tree:Destroy()
+&#9;end
+&#9;&#9;
+&#9;&#9;
+&#9;
+&#9;&#9;
+&#9;&#9;
+&#9;
+&#9;
+&#9;
+
+
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+
+end
+
+
+function onSelected(mouse)
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+&#9;if halt == true then &#9;
+&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+&#9;end
+&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+bin.Equipped:connect(onSelected)</ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Tool" referent="RBX18">
+			<Properties>
+				<bool name="CanBeDropped">true</bool>
+				<bool name="Enabled">true</bool>
+				<CoordinateFrame name="Grip">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Backpack</string>
+				<Content name="TextureId"><null></null></Content>
+				<string name="ToolTip"></string>
+			</Properties>
+			<Item class="Sound" referent="RBX19">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Ping</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=21433711</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX20">
+				<Properties>
+					<bool name="Anchored">false</bool>
+					<float name="BackParamA">0</float>
+					<float name="BackParamB">0</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">199</int>
+					<CoordinateFrame name="CFrame">
+						<X>1.5</X>
+						<Y>2.10000014</Y>
+						<Z>-0.5</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>-0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">false</bool>
+					<float name="Elasticity">0.5</float>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">6</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">1072</token>
+					<string name="Name">Handle</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">0</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>3</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="LocalScript" referent="RBX21">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Buy</string>
+					<ProtectedString name="Source">bin = script.Parent
+player = bin.Parent.Parent
+
+
+function onButton1Down(mouse)
+&#9;local hit = mouse.Target
+
+&#9;if (hit == nil) or (halt == true) then return end
+&#9;halt = true
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+&#9;bin.Ping:play()
+&#9;if hit.Parent.Parent.Name == &quot;bos&quot; then
+&#9;&#9;&#9;if hit.Name == &quot;wood&quot; then&#9;
+&#9;&#9;&#9;&#9;bin.Parent.torso.Anchored = true
+&#9;&#9;&#9;&#9;hit.CanCollide = false
+&#9;&#9;&#9;&#9;
+local part = hit
+local place = bin.Parent.torso
+
+local Xp = 0
+local Yp = 0
+local Zp = 0
+
+local times = (part.Position - place.Position).magnitude 
+
+
+local Xpn = (place.Position.x - part.Position.x) / times
+local Ypn = ((place.Position.y+5+(part.Size.y/2)) - part.Position.y) / times
+local Zpn = (place.Position.z - part.Position.z) / times
+
+
+
+Xp = part.Position.x
+Yp = part.Position.y
+Zp = part.Position.z
+
+
+for i = 1,times do
+Xp = Xp + Xpn
+Yp = Yp + Ypn
+Zp = Zp + Zpn
+part.CFrame = CFrame.new (Xp,Yp,Zp)
+wait(0.1)
+end 
+
+hit.Parent = script.Parent.Parent
+hit.Anchored = false
+hit.CanCollide = false
+hit.Transparency = 1
+&#9;&#9;&#9;end
+&#9;end
+&#9;&#9;
+&#9;&#9;
+&#9;
+&#9;&#9;
+&#9;&#9;
+&#9;
+&#9;
+&#9;
+
+
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+
+end
+
+
+function onSelected(mouse)
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+&#9;if halt == true then &#9;
+&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+&#9;end
+&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+end
+
+bin.Equipped:connect(onSelected)</ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Tool" referent="RBX22">
+			<Properties>
+				<bool name="CanBeDropped">true</bool>
+				<bool name="Enabled">true</bool>
+				<CoordinateFrame name="Grip">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Wood-placer</string>
+				<Content name="TextureId"><null></null></Content>
+				<string name="ToolTip"></string>
+			</Properties>
+			<Item class="Sound" referent="RBX23">
+				<Properties>
+					<bool name="Looped">false</bool>
+					<string name="Name">Ping</string>
+					<float name="Pitch">1</float>
+					<bool name="PlayOnRemove">false</bool>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=21433711</url></Content>
+					<float name="Volume">1</float>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX24">
+				<Properties>
+					<bool name="Anchored">false</bool>
+					<float name="BackParamA">0</float>
+					<float name="BackParamB">0</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">199</int>
+					<CoordinateFrame name="CFrame">
+						<X>1.5</X>
+						<Y>2.10000014</Y>
+						<Z>-0.5</Z>
+						<R00>-0</R00>
+						<R01>0</R01>
+						<R02>1</R02>
+						<R10>-0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>-1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">false</bool>
+					<float name="Elasticity">0.5</float>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">6</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<token name="Material">1072</token>
+					<string name="Name">Handle</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">0</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>3</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="LocalScript" referent="RBX25">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Buy</string>
+					<ProtectedString name="Source">local wood = script.Parent
+bin = script.Parent
+player = bin.Parent.Parent
+-------------------------------------------------------
+function move_wood (mouse,wood,oddx,oddz)
+&#9;if wood ~= nil then
+Col = false
+wood.CFrame = CFrame.new(0,1000,0)
+hit = mouse.Target
+if (hit == nil) then return end
+x = (math.floor(mouse.hit.p.x)) + oddx
+y = math.floor(mouse.hit.p.y) + (wood.Size.y/2)
+z = (math.floor(mouse.hit.p.z)) + oddz
+
+if x+(wood.Size.x/2) &gt;= hit.Position.x+(hit.Size.x/2) then
+Col = true
+else  end
+&#9;
+if x-(wood.Size.x/2) &lt;= hit.Position.x-(hit.Size.x/2) then
+Col = true
+else  end
+&#9;
+if z+(wood.Size.z/2) &gt;= hit.Position.z+(hit.Size.z/2) then
+Col = true
+else  end
+&#9;
+if z-(wood.Size.z/2) &lt;= hit.Position.z-(hit.Size.z/2) then
+Col = true
+else  end
+
+if hit.Name ~= &quot;storage&quot; then
+Col = true 
+else
+
+
+wood.Position =  Vector3.new(x,y,z)
+
+
+
+
+
+end
+
+
+
+
+if y ~= wood.CFrame.y  then
+&#9;Col = true
+wood.CFrame =  CFrame.new(x,y,z)
+end
+
+
+
+if Col == true then
+&#9;wood.BrickColor = BrickColor.new(21)
+else
+&#9;wood.BrickColor = BrickColor.new(38)
+end
+end
+end
+
+----------------------------------------------------
+function Move (mouse,wood,oddx,oddz)
+&#9;&#9;if wood ~= nil then
+move_wood(mouse,wood,oddx,oddz)
+end
+end
+
+--------------------------------------------------------------
+function onButton1Down(mouse,wood,w)
+&#9;&#9;if wood ~= nil then
+&#9;local hit = mouse.Target
+&#9;
+&#9;if (hit == nil) or (halt == true) then return end
+&#9;halt = true
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;
+&#9;bin.Ping:play()&#9;
+&#9;&#9;if wood.BrickColor == BrickColor.new(38) then
+&#9;&#9;&#9;wood.Parent = hit.Parent
+&#9;&#9;&#9;w:Destroy()
+&#9;&#9;&#9;onSelected(mouse)
+&#9;&#9;end
+mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+halt = false
+&#9;end
+end
+
+------------------------------------------
+function onDeselected(wood)
+&#9;wood:Destroy()&#9;
+end
+
+function onSelected(mouse)
+&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;
+&#9;if halt == true then &#9;
+&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot; 
+&#9;end
+&#9;local w = script.Parent.Parent:FindFirstChild(&quot;wood&quot;)
+&#9;if w ~= nil then
+&#9;&#9;wood = script.Parent.Parent.wood:Clone()
+&#9;&#9;wood.Transparency = 0
+&#9;&#9;wood.Anchored = true
+&#9;&#9;wood.Parent = game.Workspace
+&#9;&#9;oddx = (wood.Size.x % 2)/2
+&#9;&#9;oddz = (wood.Size.z % 2)/2
+&#9;&#9;bin.Unequipped:connect(function() onDeselected(wood)end)
+&#9;&#9;move_wood(mouse,wood,oddx,oddz)&#9;&#9;&#9;&#9;&#9;
+&#9;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse,wood,w) end)
+&#9;&#9;mouse.Move:connect(function() Move(mouse,wood,oddx,oddz) end)
+&#9;else
+&#9;wood = nil
+&#9;end
+end
+
+bin.Equipped:connect(onSelected)</ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="StarterGui" referent="RBX26">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX27">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX28">
+		<Properties>
+			<string name="Name">CollectionService</string>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX29">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX30">
+		<Properties>
+			<string name="Name">BadgeService</string>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX31">
+		<Properties>
+			<string name="Name">Geometry</string>
+		</Properties>
+	</Item>
+	<Item class="RenderHooksService" referent="RBX32">
+		<Properties>
+			<string name="Name">RenderHooksService</string>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX33">
+		<Properties>
+			<string name="Name">SocialService</string>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBX34">
+		<Properties>
+			<string name="Name">GamePassService</string>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX35">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX36">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX37">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX38">
+		<Properties>
+			<string name="Name">CookiesService</string>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX39">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX40">
+		<Properties>
+			<bool name="CharacterAutoLoads">true</bool>
+			<string name="Name">Players</string>
+		</Properties>
+	</Item>
+	<Item class="FWService" referent="RBX41">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="UserInputService" referent="RBX42">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX43">
+		<Properties>
+			<string name="Name">ContextActionService</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX44">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX45">
+		<Properties>
+			<string name="Name">Selection</string>
+		</Properties>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX46">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX47">
+		<Properties>
+			<Color3 name="Ambient">4286611584</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<Color3 name="FogColor">4290822336</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">false</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">4286611584</Color3>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+		<Item class="Script" referent="RBX48">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">sseed</string>
+				<ProtectedString name="Source">wait(1)
+
+function findNearestTorso(pos)
+dist = 1000
+for i,v in pairs(script.Parent.Parent:children()) do
+if v.Name == &quot;tree&quot; then&#9;
+&#9;if v.age.Value ~= script.Parent.age.Value then
+&#9;if (pos-v.wood.wood.Position).magnitude &lt;= dist then
+&#9;&#9;dist = (pos-v.wood.wood.Position).magnitude
+&#9;end
+end
+end
+end&#9;
+return dist
+end
+
+
+age= (tick()- script.Parent.age.Value)/120
+leaf = script.Parent.leafs.Value
+wood = script.Parent.wood.wood.Size.y
+speed = script.speed.Value
+sp = script.Parent.Parent.speed.Value
+tim = (age*age)/(leaf*(wood/10))*speed*sp
+
+
+
+wait(tim*50)
+
+seed = game.Lighting.tree:Clone()
+
+repeat
+&#9;x = math.random(-50,50)
+&#9;if x &lt;=10 and x &gt;= -10 then
+&#9;&#9;x = 0
+&#9;end&#9;
+until  x ~= 0 
+
+repeat
+&#9;z = math.random(-50,50)
+&#9;if z &lt;=10 and z &gt;= -10 then
+&#9;&#9;z = 0
+&#9;end&#9;
+until  z ~= 0 
+
+
+seed.wood.wood.CFrame = CFrame.new(x,0.4,z)
+
+
+local target = findNearestTorso(script.Parent.wood.wood.Position)
+
+if target &gt;= 30 then
+
+hit = script.Parent.Parent.Floor
+
+x = seed.wood.wood.Position.x
+z = seed.wood.wood.Position.z
+
+Col = false
+if x &gt;= hit.Position.x+(hit.Size.x/2) then
+
+Col = true
+else  end
+&#9;
+if x &lt;= hit.Position.x-(hit.Size.x/2) then
+Col = true
+else  end
+&#9;
+if z &gt;= hit.Position.z+(hit.Size.z/2) then
+Col = true
+else  end
+&#9;
+if z &lt;= hit.Position.z-(hit.Size.z/2) then
+Col = true
+else  end
+&#9;
+if Col == false then
+seed.Parent = script.Parent.Parent
+else seed:Destroy()end
+else seed:Destroy() end
+
+
+script.Disabled = true</ProtectedString>
+			</Properties>
+			<Item class="NumberValue" referent="RBX49">
+				<Properties>
+					<string name="Name">speed</string>
+					<double name="Value">1</double>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX50">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">swoodd</string>
+				<ProtectedString name="Source">wait(1)
+x=script.Parent.wood.wood.Position.x
+y=script.Parent.wood.wood.Position.y
+z=script.Parent.wood.wood.Position.z
+
+s=math.random(1,10)/10
+
+age= (tick()- script.Parent.age.Value)/120
+leaf = script.Parent.leafs.Value
+wood = script.Parent.wood.wood.Size.y
+speed = script.speed.Value
+sp = script.Parent.Parent.speed.Value
+tim = (age*age)/(leaf*(wood/10))*speed*sp
+
+
+sl = script.Parent.wood.wood.Size.x
+for i = 1,50 do
+wait(tim)
+
+sl = sl+(s/50)
+
+script.Parent.wood.wood.Size = Vector3.new(sl,script.Parent.wood.wood.Size.y ,sl)
+
+
+
+script.Parent.wood.wood.CFrame = CFrame.new(x,y,z)
+
+
+end
+
+
+
+script.Disabled = true</ProtectedString>
+			</Properties>
+			<Item class="NumberValue" referent="RBX51">
+				<Properties>
+					<string name="Name">speed</string>
+					<double name="Value">1</double>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX52">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">swoodl</string>
+				<ProtectedString name="Source">wait(1)
+b= script.Parent.wood.wood.Size.y
+x=script.Parent.wood.wood.Position.x
+y=script.Parent.wood.wood.Position.y-(script.Parent.wood.wood.Size.y/2)
+z=script.Parent.wood.wood.Position.z
+
+
+
+l=(math.random(30,70)/10)
+
+age= (tick()- script.Parent.age.Value)/120
+leaf = script.Parent.leafs.Value
+wood = script.Parent.wood.wood.Size.y
+speed = script.speed.Value
+sp = script.Parent.Parent.speed.Value
+tim = (age*age)/(leaf*(wood/10))*speed*sp
+
+
+sl=b
+for i = 1,50 do
+wait(tim)
+sl=sl+(l/50)
+script.Parent.wood.wood.Size = Vector3.new(script.Parent.wood.wood.Size.x,sl,script.Parent.wood.wood.Size.z)
+script.Parent.wood.wood.CFrame = CFrame.new(x,y+(script.Parent.wood.wood.Size.y/2),z)
+&#9;for i,v in pairs(script.Parent.leaf:children()) do&#9;&#9;
+&#9;&#9;v.CFrame = CFrame.new(v.Position.x,v.Position.y+(l/50),v.Position.z)
+&#9;end
+end
+
+
+
+script.Disabled = true
+
+
+</ProtectedString>
+			</Properties>
+			<Item class="NumberValue" referent="RBX53">
+				<Properties>
+					<string name="Name">speed</string>
+					<double name="Value">1</double>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX54">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">28</int>
+				<CoordinateFrame name="CFrame">
+					<X>-37.1000023</X>
+					<Y>7.20000076</Y>
+					<Z>-44.0999985</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">1280</token>
+				<string name="Name">leaf</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>0.200000003</X>
+					<Y>0.200000003</Y>
+					<Z>0.200000003</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX55">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>-37</X>
+					<Y>4</Y>
+					<Z>-44</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">512</token>
+				<string name="Name">wood</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1</X>
+					<Y>1</Y>
+					<Z>1</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX56">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">sleaf</string>
+				<ProtectedString name="Source">wait(1)
+
+l = game.Lighting.leaf:Clone()
+x = script.Parent.wood.wood.Position.x+(math.random(-25,25)/10)
+y = script.Parent.wood.wood.Position.y+ (math.random(-25,25)/10) +(script.Parent.wood.wood.Size.y/2)
+z = script.Parent.wood.wood.Position.z+(math.random(-25,25)/10)
+xs =((math.random(10,30)/10+4)/50)+((script.Parent.wood.wood.Size.x*2)/50)
+ys =((math.random(10,40)/10+3)/50)+((script.Parent.wood.wood.Size.x*2)/50)
+zs =((math.random(10,30)/10+4)/50)+((script.Parent.wood.wood.Size.x*2)/50)
+
+
+age= (tick()- script.Parent.age.Value)/120
+leaf = script.Parent.leafs.Value
+wood = script.Parent.wood.wood.Size.y
+speed = script.speed.Value
+sp = script.Parent.Parent.speed.Value
+tim = (age*age)/(leaf*(wood/10))*speed*sp
+
+l.CFrame=CFrame.new(x,y,z)
+l.Parent= script.Parent.leaf
+xss=0
+yss=0
+zss=0
+for i = 1,50 do
+wait(tim)
+
+
+
+
+xss=xss+xs
+yss=yss+ys
+zss=zss+zs
+
+l.Size = Vector3.new(xss,yss,zss)
+l.CFrame = CFrame.new(x,y,z)
+end
+script.Parent.leafs.Value = script.Parent.leafs.Value+1
+
+
+script.Disabled = true
+
+</ProtectedString>
+			</Properties>
+			<Item class="NumberValue" referent="RBX57">
+				<Properties>
+					<string name="Name">speed</string>
+					<double name="Value">1</double>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Model" referent="RBX58">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">trees</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Model" referent="RBX59">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">leaf</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+			</Item>
+			<Item class="Model" referent="RBX60">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">wood</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX61">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">38</int>
+						<CoordinateFrame name="CFrame">
+							<X>0.200000003</X>
+							<Y>0.300002217</Y>
+							<Z>-0.800000012</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">512</token>
+						<string name="Name">wood</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>0.999999821</Y>
+							<Z>1</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Script" referent="RBX62">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">seed</string>
+					<ProtectedString name="Source">wait(1)
+b= script.Parent.wood.wood.Size.y
+x=script.Parent.wood.wood.Position.x
+y=script.Parent.wood.wood.Position.y-(script.Parent.wood.wood.Size.y/2)
+z=script.Parent.wood.wood.Position.z
+
+l=(math.random(60,70)/10)
+tim=0.07
+
+sl=b
+for i = 1,25 do
+wait(tim*2)
+sl=sl+(l/25)
+script.Parent.wood.wood.Size = Vector3.new(script.Parent.wood.wood.Size.x,sl,script.Parent.wood.wood.Size.z)
+script.Parent.wood.wood.CFrame = CFrame.new(x,y+(script.Parent.wood.wood.Size.y/2),z)
+end
+
+
+
+l = game.Lighting.leaf:Clone()
+x = script.Parent.wood.wood.Position.x+(math.random(-10,10)/10)
+y = script.Parent.wood.wood.Position.y+ (math.random(-10,10)/10) +(script.Parent.wood.wood.Size.y/2)
+z = script.Parent.wood.wood.Position.z+(math.random(-10,10)/10)
+xs =(math.random(10,30)/10+4)/50
+ys =(math.random(10,40)/10+3)/50
+zs =(math.random(10,30)/10+4)/50
+
+
+
+
+l.CFrame=CFrame.new(x,y,z)
+l.Parent= script.Parent.leaf
+xss=0
+yss=0
+zss=0
+for i = 1,25 do
+wait(tim/2)
+
+
+xss=xss+(xs*2)
+yss=yss+(ys*2)
+zss=zss+(zs*2)
+
+l.Size = Vector3.new(xss,yss,zss)
+l.CFrame = CFrame.new(x,y,z)
+end
+script.Parent.leafs.Value = script.Parent.leafs.Value+1
+script.Parent.age.Value = tick()-120
+
+function chose ()
+x = math.random(1,5)
+if x == 1 then
+s=game.Lighting.sleaf:Clone()
+elseif x == 2 then
+s=game.Lighting.swoodl:Clone()
+elseif x == 3 then
+s=game.Lighting.swoodd:Clone()&#9;
+elseif x == 4 or x == 5 then
+s=game.Lighting.sseed:Clone()
+end&#9;&#9;&#9;
+s.Parent = script.Parent
+s.Changed:connect(function(property) change(s,property)end)
+end 
+
+function change(s,property)
+if property == &quot;Disabled&quot; then
+&#9;chose()
+&#9;s:Destroy()
+end&#9;
+&#9;
+end
+
+
+chose()
+
+
+
+
+</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="NumberValue" referent="RBX63">
+				<Properties>
+					<string name="Name">leafs</string>
+					<double name="Value">0</double>
+				</Properties>
+			</Item>
+			<Item class="NumberValue" referent="RBX64">
+				<Properties>
+					<string name="Name">age</string>
+					<double name="Value">0</double>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Model" referent="RBX65">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">bos</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Part" referent="RBX66">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">37</int>
+					<CoordinateFrame name="CFrame">
+						<X>7.30011749</X>
+						<Y>0.5</Y>
+						<Z>-0.0998687744</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<float name="Elasticity">0.5</float>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">true</bool>
+					<token name="Material">1280</token>
+					<string name="Name">Floor</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">3</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>375.199646</X>
+						<Y>1</Y>
+						<Z>236.000122</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Script" referent="RBX67">
+					<Properties>
+						<bool name="Disabled">false</bool>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Script</string>
+						<ProtectedString name="Source">trees = 200
+rand = 10
+
+
+function count (pos)
+dist = 1000
+for i,v in pairs(script.Parent.Parent:children()) do
+if v.Name == &quot;tree&quot; then
+&#9;if (pos-v.wood.wood.Position).magnitude &lt;= dist then
+&#9;&#9;dist = (pos-v.wood.wood.Position).magnitude
+&#9;end
+end
+end&#9;
+return dist
+end
+
+
+for i = 1,trees do 
+&#9;wait()
+&#9;
+seed = game.Lighting.tree:Clone()
+x = math.random(script.Parent.Position.x-(script.Parent.Size.x/2)+rand,script.Parent.Position.x+(script.Parent.Size.x/2)-rand)
+z = math.random(script.Parent.Position.z-(script.Parent.Size.z/2)+rand,script.Parent.Position.z+(script.Parent.Size.z/2)-rand)
+dist = count(script.Parent.Position)
+seed.wood.wood.CFrame = CFrame.new(x,0.4,z)
+
+if dist &gt;= 10 then
+
+seed.Parent = script.Parent.Parent
+else seed:Destroy() end
+
+end
+
+
+repeat 
+wait(20)
+script.Parent.Parent.speed.Value = script.Parent.Parent.speed.Value + 0.1
+until script.Parent.Parent.speed.Value &gt;= 0.99</ProtectedString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Model" referent="RBX68">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">tree</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Script" referent="RBX69">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">seed</string>
+					<ProtectedString name="Source">wait(1)
+
+function findNearestTorso(pos)
+dist = 1000
+for i,v in pairs(script.Parent.Parent:children()) do
+if v.Name == &quot;tree&quot; then&#9;
+&#9;if v ~= part then
+&#9;if (pos-v.wood.wood.Position).magnitude &lt;= dist then
+&#9;&#9;dist = (pos-v.wood.wood.Position).magnitude
+&#9;end
+&#9;end
+end
+end&#9;
+return dist
+end
+
+seed = game.Lighting.tree:Clone()
+
+repeat
+&#9;x = math.random(-50,50)
+&#9;if x &lt;=10 and x &gt;= -10 then
+&#9;&#9;x = 0
+&#9;end&#9;
+until  x ~= 0 
+
+repeat
+&#9;z = math.random(-50,50)
+&#9;if z &lt;=10 and z &gt;= -10 then
+&#9;&#9;z = 0
+&#9;end&#9;
+until  z ~= 0 
+
+
+seed.wood.wood.CFrame = CFrame.new(x,-10,z)
+
+
+local target = findNearestTorso(script.Parent.wood.wood.Position)
+if target &lt;= 10000 then
+
+hit = script.Parent.Parent.Floor
+
+x = seed.wood.wood.Position.x
+z = seed.wood.wood.Position.z
+
+Col = false
+if x &gt;= hit.Position.x+(hit.Size.x/2) then
+
+Col = true
+else  end
+&#9;
+if x &lt;= hit.Position.x-(hit.Size.x/2) then
+Col = true
+else  end
+&#9;
+if z &gt;= hit.Position.z+(hit.Size.z/2) then
+Col = true
+else  end
+&#9;
+if z &lt;= hit.Position.z-(hit.Size.z/2) then
+Col = true
+else  end
+&#9;
+if Col == false then
+seed.Parent = script.Parent.Parent
+else seed:Destroy()end
+else seed:Destroy() end
+
+
+script.Disabled = true</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Model" referent="RBX70">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">leaf</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX71">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">28</int>
+						<CoordinateFrame name="CFrame">
+							<X>0</X>
+							<Y>-10</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">1280</token>
+						<string name="Name">leaf</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>3.19999981</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX72">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">wood</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX73">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">38</int>
+						<CoordinateFrame name="CFrame">
+							<X>7.80000019</X>
+							<Y>3.50000024</Y>
+							<Z>1.20000005</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">512</token>
+						<string name="Name">wood</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">3</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>5</Y>
+							<Z>1</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="NumberValue" referent="RBX74">
+				<Properties>
+					<string name="Name">age</string>
+					<double name="Value">0</double>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX75">
+				<Properties>
+					<bool name="Disabled">true</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">refresh</string>
+					<ProtectedString name="Source">age = script.Parent.age.Value
+tim = (tick()-age)^0.5
+
+
+
+xs = (tim - (tim%4))/4
+if xs &lt;= 1 then
+ xs = 1
+end
+
+zs = (tim - (tim%4))/4
+if zs &lt;= 1 then
+ zs = 1
+end
+
+tim = (tick()-age)^0.7
+ys = 5+(tim)/4.5
+
+xp=script.Parent.wood.wood.Position.x
+yp=1+(ys/2)
+zp=script.Parent.wood.wood.Position.z
+
+
+
+
+script.Parent.wood.wood.Size = Vector3.new(xs,ys,zs)
+script.Parent.wood.wood.CFrame = CFrame.new(xp,yp,zp)
+
+script.Parent.leaf.leaf.Size = Vector3.new((xs*2)+3,(xs*2)+3,(xs*2)+3)
+script.Parent.leaf.leaf.CFrame = CFrame.new (xp,ys,zp)
+
+script.Disabled = true</ProtectedString>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX76">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Script</string>
+					<ProtectedString name="Source">script.Parent.age.Value = tick()
+script.Parent.refresh.Disabled = false
+
+while true do
+&#9;wait(game.Workspace.lag.Value)
+&#9;x = math.random(2,100)
+&#9;if x == 1 then
+&#9;&#9;script.Parent.seed.Disabled = false
+&#9;&#9;
+&#9;end&#9;
+&#9;
+&#9;script.Parent.refresh.Disabled = false
+end </ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
